@@ -1,0 +1,1213 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: vhIg72/IML+qx2VinjKonKyaIBwGq
+ XTsM8YhNnbyifM=
+SHA-256-Digest-Manifest: hWs5JfgBLK1Mx2MpZ7fcoP2sWhcJnLyq14YQfwHRW78=
+Created-By: 1.8.0_102 (Oracle Corporation)
+
+Name: icons/full/obj16/event2.png
+SHA-256-Digest: EEHl/9k/9zOGAkFb2REi/8RYARwBt+P06WrG9o+bZ/o=
+
+Name: plugin.xml
+SHA-256-Digest: YX6NQbTb65uZ3x2tlW3WP6/EfcXcIZi3oj/GQRyuqv0=
+
+Name: org/eclipse/php/composer/ui/editor/composer/GeneralSection$2.cla
+ ss
+SHA-256-Digest: NiNjVFzALNZWycSAwJKcJr7RiCDs1qASQLdubfvAU8M=
+
+Name: org/eclipse/php/composer/ui/parts/TreePart$1.class
+SHA-256-Digest: WP1dVE0pSsZfOLBIY4qHrYb0T2tOdA/RVGsGefAkZhQ=
+
+Name: org/eclipse/php/composer/ui/parts/composer/DependencySearch.clas
+ s
+SHA-256-Digest: 39tKirF5pWUlu2dMkyWILPjXND6Rjl/khMSdg0xxV4A=
+
+Name: org/eclipse/php/composer/ui/parts/IFormEntryListener.class
+SHA-256-Digest: 3IUyVyW12RXqasLEyQGxpyr0dt8kZG9BjBkzrwWJ28g=
+
+Name: icons/full/obj16/star.png
+SHA-256-Digest: yamiSblzfh9IXTC9Ph5lQfpWkCHZ1JKE8rq//4gkJuU=
+
+Name: org/eclipse/php/composer/ui/editor/composer/PsrSection$1.class
+SHA-256-Digest: pCj0F6eOphm2VcC08Y0VfzidQq+Ctlsz5muTq7lm4hQ=
+
+Name: org/eclipse/php/composer/ui/editor/composer/ConfigSection$8.clas
+ s
+SHA-256-Digest: At+ko4ZowKD8OV5qfxxGakJdW/12D2zOVYDGiDQZZK8=
+
+Name: org/eclipse/php/composer/ui/wizard/AbstractComposerWizard.class
+SHA-256-Digest: +CoJcY9YUST0RUD7Kd3WY46K14gXKp91KbumzJO6pKA=
+
+Name: org/eclipse/php/composer/ui/wizard/project/template/PackageProje
+ ctWizardFirstPage$1.class
+SHA-256-Digest: cCLQl9PXuetdk2zuDfzIluQB3UmrASS55W6bwUWC3Mg=
+
+Name: org/eclipse/php/composer/ui/converter/ComposerConverter.class
+SHA-256-Digest: 1IloMwg7ofrJ9STUTTPGsvsvQ3o4lL7GDD55/3wFZV8=
+
+Name: icons/full/obj16/logical_package_obj.gif
+SHA-256-Digest: vaHexZEUGtweBjJOQ3cG5UAKTAwdREI63XIbhc8KPiU=
+
+Name: org/eclipse/php/composer/ui/preferences/SaveActionsPreferencePag
+ e.class
+SHA-256-Digest: 5zycVr+dXo84z5BoeerhuLnoX+top1n4Ko71BERadWA=
+
+Name: org/eclipse/php/composer/ui/parts/composer/VersionSuggestion$9.c
+ lass
+SHA-256-Digest: ekbd4eCHkPBnSmqYAGPTQ7/QUmVgleMDpddPgI9rBcw=
+
+Name: org/eclipse/php/composer/ui/dialogs/ScriptDialog$2.class
+SHA-256-Digest: 0OSamXlt5qNrshvGTmCVZgvkpeHuruBLFizPJaE0FX4=
+
+Name: org/eclipse/php/composer/ui/editor/toolbar/SearchControl.class
+SHA-256-Digest: UaWMnjIOsY7Lqb5G9DWcaR3OxMhVjaCPvspz++aLgf0=
+
+Name: org/eclipse/php/composer/ui/preferences/launcher/ExecutableTeste
+ r.class
+SHA-256-Digest: 1zswytQNg/13xYziNct0OnWZ1/IaE6fpyPCByolrAic=
+
+Name: org/eclipse/php/composer/ui/parts/FormEntry$2.class
+SHA-256-Digest: zO99JmXd8iR+48svljHr7Y5fJu4l7mm8toeh6x7Fddo=
+
+Name: org/eclipse/php/composer/ui/controller/IPackageCheckStateChanged
+ Listener.class
+SHA-256-Digest: YJiyDibDsFdSd1is3WxnEeNVm9Rsr0eMnw9a19fm2w4=
+
+Name: org/eclipse/php/composer/ui/editor/composer/GeneralSection$8.cla
+ ss
+SHA-256-Digest: z5rMvqYSPM9+8XzSiFtEXbrrmUgKXEHjDMc5YdCr8ao=
+
+Name: org/eclipse/php/composer/ui/editor/composer/AuthorSection$3.clas
+ s
+SHA-256-Digest: d2rZY5pLyViUap6wTiFmH9CTUBe0PcNceXw2pcdiTL0=
+
+Name: org/eclipse/php/composer/ui/parts/composer/PackageSearch$1.class
+SHA-256-Digest: epeXEj8sXERx/qaz/GBqvPrkVQRZDy1Exb3KG0LgKBI=
+
+Name: org/eclipse/php/composer/ui/parts/SharedPart.class
+SHA-256-Digest: V30ryUa1WSIigy0JiU3Wnaz/3BA98Ti1sWtcdiFR2D8=
+
+Name: org/eclipse/php/composer/ui/wizard/project/template/PackagistIte
+ m$1.class
+SHA-256-Digest: P57BbWb5lVghVyHZ7C7FJJpU01vnTdJjrogqszIxARw=
+
+Name: org/eclipse/php/composer/ui/parts/composer/DependencySearch$4.cl
+ ass
+SHA-256-Digest: o+jljqDlVY+WOe3lzOKg6UePMJTNeuVBAWJnCDBBccE=
+
+Name: icons/full/obj16/lightning.png
+SHA-256-Digest: x2Q8V/oLmIYUz9lc73xWttQr2s/6GZRJ0WH4xL4Bogw=
+
+Name: org/eclipse/php/composer/ui/parts/composer/PackageSelectionFinis
+ hedListener.class
+SHA-256-Digest: wug2ZRzA0hjizcvs8W9o7+AC55G2sSKDq9Fi90TziQ8=
+
+Name: org/eclipse/php/composer/ui/editor/composer/GeneralSection$14.cl
+ ass
+SHA-256-Digest: AAxmcACptChuqYkx10gvliRdnvkuylYlHxmwUCYdCQU=
+
+Name: org/eclipse/php/composer/ui/editor/TreeSection.class
+SHA-256-Digest: 89p6w9kvQhULDZ6JOcaKjZJvVUbkp0cv1vjwLKpGKhY=
+
+Name: org/eclipse/php/composer/ui/editor/composer/SupportSection$6.cla
+ ss
+SHA-256-Digest: AsIKJQ6rnTG6mEAcs6zbueV/xIylUKbpZc31GQqfmZ4=
+
+Name: org/eclipse/php/composer/ui/parts/composer/VersionSuggestion$3.c
+ lass
+SHA-256-Digest: 1w3Xqe/lSCyQNYwae19qcISriuc1H2LkETZruXidRsY=
+
+Name: org/eclipse/php/composer/ui/dialogs/PsrDialog$4.class
+SHA-256-Digest: XyD0A0vdy5FHQ9PgQJpJ9CdUgvA+GFqhip6HBiGb0Q8=
+
+Name: org/eclipse/php/composer/ui/parts/composer/VersionSuggestion$Ver
+ sionController.class
+SHA-256-Digest: Rq1I8ofU1e5UBldL2Bz8uUtTgOE95s9y6+jR5jXQ7P8=
+
+Name: org/eclipse/php/composer/ui/editor/composer/RepositoriesSection$
+ RepositoriesController.class
+SHA-256-Digest: hdQuGZEnrjkQfts6Jx3L7LdZF1a7/DgmXpUqm0RSbCE=
+
+Name: icons/full/obj16/packagefolder_obj.gif
+SHA-256-Digest: rw2cFZKUYfo4AYLoA7KOWMC+54TwzToj1+DDFdQmCuk=
+
+Name: org/eclipse/php/composer/ui/parts/SharedPartWithButtons$Selectio
+ nHandler.class
+SHA-256-Digest: lzmje//UvIE3nzSSbHQM/B9CtNWJBiRPalxz+iKvILE=
+
+Name: org/eclipse/php/composer/ui/parts/composer/DependencySearchPart.
+ class
+SHA-256-Digest: sa7bpSD3/LA77WJdBomGUdqpTYWQqYC53b1i18x+xM0=
+
+Name: org/eclipse/php/composer/ui/editor/composer/ComposerFormEditor$5
+ .class
+SHA-256-Digest: MuY3JbAFfOqXYdfTpqPviGCJ85HcFy0uD6mld+HjjcM=
+
+Name: org/eclipse/php/composer/ui/handler/RemoveComposerSupportHandler
+ .class
+SHA-256-Digest: Cw9fHDr9jkhyudn856eTtYHkJ4uD4Y96PqeewSkT9hA=
+
+Name: META-INF/maven/org.eclipse.php/org.eclipse.php.composer.ui/pom.p
+ roperties
+SHA-256-Digest: oSSeoX16p8GzBnfHAQ54vXhFcVLOSfYk7Ggt/cSaBEM=
+
+Name: org/eclipse/php/composer/ui/editor/composer/ScriptsSection.class
+SHA-256-Digest: tjnlrvI3wIQSUTeLbhfFYc0h32daewE+K5yee/nHjUU=
+
+Name: org/eclipse/php/composer/ui/commands/InjectAutoloadCommand.class
+SHA-256-Digest: B5ro6hfCK+3Jv16eV2wAemTPlYVj7mfUwPrsjkOCaRw=
+
+Name: org/eclipse/php/composer/ui/preferences/launcher/LauncherConfigu
+ rationBlock$3.class
+SHA-256-Digest: AI6Sj6lK9zoBXhaTuQW+onw2eUEXhWc+1LomIDLaDSg=
+
+Name: org/eclipse/php/composer/ui/dialogs/PersonDialog.class
+SHA-256-Digest: 31QKLBaPrSS7aBsXdoF44IxToUcZFT9EEZHdJPA+vxI=
+
+Name: org/eclipse/php/composer/ui/wizard/project/ComposerProjectWizard
+ FirstPage.class
+SHA-256-Digest: 9d/QSDNiIIJ0rV8kE9KAvguj5E71mj+sytuVPsupYU0=
+
+Name: org/eclipse/php/composer/ui/editor/composer/GeneralSection$13.cl
+ ass
+SHA-256-Digest: ZZmdthGdNoP+lYAB4/oPKPGv8pwqM67D+LYCd85gfEw=
+
+Name: org/eclipse/php/composer/ui/parts/composer/PackageSearch$2.class
+SHA-256-Digest: yS+cQgavABRDbInpaoBUUvaKRzH5b2Te5FmPDlw++fg=
+
+Name: org/eclipse/php/composer/ui/dialogs/PersonDialog$1.class
+SHA-256-Digest: dMBFfApjTshBYuvCPu8S66iRRWX3JUXBka1Zq9dAYso=
+
+Name: org/eclipse/php/composer/ui/commands/UpdateBuildPathCommand.clas
+ s
+SHA-256-Digest: 8I7YnKBG9C+dXh35DGGNw/tNe5OVuKRxyU1ytEAzp8Y=
+
+Name: org/eclipse/php/composer/ui/parts/composer/VersionSuggestion$4.c
+ lass
+SHA-256-Digest: mDVud35RsPSvd+0b5KRxkDO4m6PNheCQfmj0aJ9buUQ=
+
+Name: org/eclipse/php/composer/ui/editor/composer/ConfigSection$3.clas
+ s
+SHA-256-Digest: zcRR3yS2sCDqbWUzk/4pWxOLYBcojpuERVm3TUJi7HQ=
+
+Name: org/eclipse/php/composer/ui/wizard/AbstractWizardFirstPage.class
+SHA-256-Digest: YD6w6HWiRnehXeJfdYHtsEZXz8MOiYXkWRPvLhUspKs=
+
+Name: org/eclipse/php/composer/ui/editor/composer/SupportSection$5.cla
+ ss
+SHA-256-Digest: QMyRNUwfFGQ8ozFIQWBaHz19/rvCSUKCfAjb0cmQEDE=
+
+Name: org/eclipse/php/composer/ui/controller/PathController.class
+SHA-256-Digest: tVHGt8caCnDdPuRvdH2qrciw9NdxR8LXmm7N6aaMFvQ=
+
+Name: org/eclipse/php/composer/ui/controller/GraphController.class
+SHA-256-Digest: oCIhonrW5aCGPWAJzRqywu7eO1Yn+GqGQObQaHJxU1M=
+
+Name: org/eclipse/php/composer/ui/preferences/launcher/LauncherConfigu
+ rationBlock$2.class
+SHA-256-Digest: GCHGsSyFhp9LXJmSAJCneEoPY+kk92kl5ptJMKcF7NQ=
+
+Name: icons/full/obj16/namespace_obj.png
+SHA-256-Digest: 2HwxpiKWJFMwM3gmlWnmdMGUM9ejRwwYspwHnDco48E=
+
+Name: org/eclipse/php/composer/ui/editor/composer/GeneralSection$3.cla
+ ss
+SHA-256-Digest: CMFzGg5RV9KljIu9OSivQ4dLap/luQe38Jcl1wgQIdc=
+
+Name: org/eclipse/php/composer/ui/wizard/project/template/PackageProje
+ ctWizardFirstPage.class
+SHA-256-Digest: 44TAFfVIb+LQ/LavxMGorWE8yWjuMCVY8k2na3I1abE=
+
+Name: org/eclipse/php/composer/ui/parts/composer/DependencySearch$3.cl
+ ass
+SHA-256-Digest: kIqekfnXtfggRcV9gVX6Fu1qFrHltfyXM4oj+cRG1X8=
+
+Name: Resources/intro/composer.xml
+SHA-256-Digest: N2JFJ7e99dhn/434PDtAc0Km3+CgZtgPqetgBjlJHl4=
+
+Name: org/eclipse/php/composer/ui/utils/WidgetHelper.class
+SHA-256-Digest: LYAacRWLqR/1XrgThvjln+Z5HYI/4OWgDw/kJZ8I7Ws=
+
+Name: org/eclipse/php/composer/ui/job/ComposerJob.class
+SHA-256-Digest: QlUP7d8lTF27q1ZVLxUN7uxKV4YcZRsy8Lw+vvHomRo=
+
+Name: org/eclipse/php/composer/ui/preferences/launcher/LauncherKeyBag.
+ class
+SHA-256-Digest: jzq8E1GMuBhN9/g9ts4PubqCXlTLdqOGOmRqkmtdOqw=
+
+Name: org/eclipse/php/composer/ui/parts/TablePart$1.class
+SHA-256-Digest: C7U15dIZUN3MPiX7UFZ9h2iuMU7Bb/EUyXBD759bWPU=
+
+Name: org/eclipse/php/composer/ui/wizard/project/template/Validator.cl
+ ass
+SHA-256-Digest: 7xDyozy8tPjTuo5b3YtgTqYXCHNR6IpNI9u8UTysN78=
+
+Name: org/eclipse/php/composer/ui/editor/composer/PsrSection$2.class
+SHA-256-Digest: z4Hi7keqoXpDOPALgtiIbrdgucdUCTegVvCJggY1yRg=
+
+Name: org/eclipse/php/composer/ui/dialogs/MissingExecutableDialog.clas
+ s
+SHA-256-Digest: Td42JcymybSIa9HLiPgLgiRXgTsq8oUc4V0ObXhKP5I=
+
+Name: org/eclipse/php/composer/ui/wizard/project/template/PackagistIte
+ m$4$1.class
+SHA-256-Digest: N1n9kHeiGvDV6eQXTcvMxhNOkmPfp5Jb5bMlCGq1iBI=
+
+Name: org/eclipse/php/composer/ui/parts/BooleanFormEntry.class
+SHA-256-Digest: sPZl795ITnnxlPOmsFvrOGFeibu0hbtxA97Foc8gzXw=
+
+Name: org/eclipse/php/composer/ui/editor/composer/DependencyGraphPage$
+ DevFilter.class
+SHA-256-Digest: QEqZD/BDWXbpJ3tg5vf4sizlLhHrXtWlGfFlNL8JnwE=
+
+Name: org/eclipse/php/composer/ui/editor/composer/ConfigSection$2.clas
+ s
+SHA-256-Digest: SOpmPwYN+Tj4k0i/aYCwretJtop80LpZCpcflibfrDQ=
+
+Name: org/eclipse/php/composer/ui/editor/composer/GeneralSection$9.cla
+ ss
+SHA-256-Digest: UbMBGXI7D2QTTtYnSrTmSvUylWCh2RtZqnJZZ8P1alE=
+
+Name: org/eclipse/php/composer/ui/wizard/project/template/PackageFilte
+ rViewer$1.class
+SHA-256-Digest: ND28G/siwZfsvxPGCBIz5TZ827ay7ypzAaxtlvefFJc=
+
+Name: org/eclipse/php/composer/ui/editor/TreeSection$PartAdapter.class
+SHA-256-Digest: rjW7Mcs9YzCiuwQVpHuCBMRlUZQwrEdNougPkC5ZTQA=
+
+Name: org/eclipse/php/composer/ui/ComposerUIPluginImages.class
+SHA-256-Digest: f0Vp5fgPYN5lnN1ShLNKBwRDrgQms+wds5vzZUrb71g=
+
+Name: icons/full/obj16/packd_obj.gif
+SHA-256-Digest: UDlAEn75csf1+bY0TJimu9gNqkt2O/UCMV8yageEa+E=
+
+Name: org/eclipse/php/composer/ui/editor/composer/DependenciesPage$3.c
+ lass
+SHA-256-Digest: JWVGsZQXxHCcIjwzCCoJM+kfwQ3RkTaKLpuSo4uxc5o=
+
+Name: org/eclipse/php/composer/ui/wizard/project/template/PackageFilte
+ rChangedListener.class
+SHA-256-Digest: SbetNQy57KfoC+4EkdiO6U5cMg9DHcYEmU5VIC3MyPQ=
+
+Name: org/eclipse/php/composer/ui/editor/ComboFormEntryAdapter.class
+SHA-256-Digest: SKo/F/auIzCRMV0t3CpR4gLFOJA6gBmsrVYvbF5u0Ks=
+
+Name: org/eclipse/php/composer/ui/editor/composer/ScriptsSection$3.cla
+ ss
+SHA-256-Digest: yCDLfl6KT4u7zWY7ArHxOuw2sP9ncVHEtNqlyvmQTW0=
+
+Name: org/eclipse/php/composer/ui/dialogs/MissingExecutableDialog$1.cl
+ ass
+SHA-256-Digest: 7Gk81Cv4i9egowG3WB3VNuuhOLfr0LHFhtcWYOMHwZo=
+
+Name: org/eclipse/php/composer/ui/editor/composer/AuthorSection$2.clas
+ s
+SHA-256-Digest: O79DMKuq8Dstyy/o1uylGeL5Z+nlNFT4Cc4dVUEf4h0=
+
+Name: org/eclipse/php/composer/ui/wizard/project/AutoloadGroup.class
+SHA-256-Digest: lWhY8AbroOkwNuMj4DZrS94+Yy7eLDJyKunzoj4/60I=
+
+Name: org/eclipse/php/composer/ui/preferences/launcher/LauncherConfigu
+ rationBlock$4.class
+SHA-256-Digest: rzCOw372woNlS+9zeUfLPMyVtJr+sj3WIe0IUk0bAz4=
+
+Name: org/eclipse/php/composer/ui/commands/UpdateBuildPathCommand$1.cl
+ ass
+SHA-256-Digest: g1l4YOAV5jcjuFI5ZosphL7LTRxwtA8W5yExBTyhFCQ=
+
+Name: icons/full/obj16/composer_project.gif
+SHA-256-Digest: +FEjJdoHHPpQ6aIuoDglriFZo6yITTHULNdJ0qbRT8w=
+
+Name: icons/full/obj16/install.png
+SHA-256-Digest: AFIAewGGIfdteOx/eq3sdjollWfKDN9D5czA9rey6pc=
+
+Name: org/eclipse/php/composer/ui/dialogs/ScriptDialog.class
+SHA-256-Digest: fwUg8eEimxo3X8c7OkCq0i64d11wYofrymYx8vsLII8=
+
+Name: icons/full/obj16/repo_svn.png
+SHA-256-Digest: 5AVWgWFxrUZvJuiEaPh3PktNL0tNPtG0woPw23HaNZc=
+
+Name: icons/full/obj16/event3.png
+SHA-256-Digest: qQZylN4b1dfcipYZFu8pqhexyrSaAHLoESs/hNoo5ss=
+
+Name: org/eclipse/php/composer/ui/preferences/ComposerConfigurationBlo
+ ck.class
+SHA-256-Digest: RXBXKGNnbL9gaE6/XsaH/eFpdgXanKpmWxTPKUbxFyA=
+
+Name: org/eclipse/php/composer/ui/parts/ComboFormEntry.class
+SHA-256-Digest: yLtNWhAjyb6Rhxy7P32B9sra5fmaTGOWvR6KRtQM56U=
+
+Name: icons/full/obj16/buildpath_include.gif
+SHA-256-Digest: l/ts/McTa6QJ03QzEBcYD/lExMLKkowhJpDy7Y1GvGo=
+
+Name: org/eclipse/php/composer/ui/actions/UpdateAction.class
+SHA-256-Digest: itYPenHGGHmbaQN+TvSgbLOqZR8E0qS/jUmu092gUyg=
+
+Name: org/eclipse/php/composer/ui/editor/composer/AutoloadPage.class
+SHA-256-Digest: pXYrME5wvBFs/uykCSiWTP3PKEWIpetx5qAmoVRoobE=
+
+Name: org/eclipse/php/composer/ui/controller/ITableController.class
+SHA-256-Digest: AgM6byobrzNuD7zWgFmjbvhKJOoQqbezCymK2DYmvnE=
+
+Name: org/eclipse/php/composer/ui/actions/InstallAction.class
+SHA-256-Digest: 581EqPek1t50I8di9YU9hXo331upfUBsdblSNHuYV7U=
+
+Name: org/eclipse/php/composer/ui/parts/composer/PackageSearch$3.class
+SHA-256-Digest: M7mpDq6h/RUY0k0cSZvXN6FZla74Nmak/3Yq8/BOttc=
+
+Name: org/eclipse/php/composer/ui/wizard/project/BasicSettingsGroup.cl
+ ass
+SHA-256-Digest: Fg7W8kSUYWUfHOCI4E20GaTdjregWOQ76sz+Trb9SUE=
+
+Name: org/eclipse/php/composer/ui/wizard/ValidationException.class
+SHA-256-Digest: +FRcEwdPeou4FrR8jk7TSUSvTym3zuDBoX2OgebR22A=
+
+Name: org/eclipse/php/composer/ui/wizard/project/Validator.class
+SHA-256-Digest: T6IV1EOOi0xnOXXneyzxNSi6jkwUkY8nWKQzS0czErU=
+
+Name: org/eclipse/php/composer/ui/editor/composer/ConfigSection$1.clas
+ s
+SHA-256-Digest: r3iAqXgR+W7DIxJPkTCBhkPUodPqKeOWDzUzEw/bVOA=
+
+Name: org/eclipse/php/composer/ui/job/CreateProjectJob.class
+SHA-256-Digest: 6aGLP/mEpYJrgtkYcOpZgPp1TltUb7e1/GTT6+2FC8M=
+
+Name: Resources/intro/css/graphics/composer.png
+SHA-256-Digest: 6cw0HAaKCsQiki4klBChT41ct474ZqmYMbrYaegq8T8=
+
+Name: org/eclipse/php/composer/ui/wizard/project/template/PackagistIte
+ m.class
+SHA-256-Digest: c4eh8k3Z4JmxhX2qQ5YR81FUEsDd5WWBaxXreIIeET0=
+
+Name: org/eclipse/php/composer/ui/editor/composer/OverviewPage$1.class
+SHA-256-Digest: o4Dj+ZgJgt0Q7bnqFYpYD38t0amhRqnTXiDUE/7pXQU=
+
+Name: org/eclipse/php/composer/ui/actions/ToggleDevAction.class
+SHA-256-Digest: Bix7bQSZYgcrr76aE14XoQF4cxz/Yyq/1GpqIYuexBo=
+
+Name: org/eclipse/php/composer/ui/editor/composer/RepositoriesSection$
+ 3.class
+SHA-256-Digest: zaO72xeiHXFBMDF10mA2Ltt16R65nXkWcoHFuNyqqss=
+
+Name: org/eclipse/php/composer/ui/controller/PsrController.class
+SHA-256-Digest: wcvvHnI4lFxF615Za26V/LidBqMAoYw6lhtFTOir5gQ=
+
+Name: org/eclipse/php/composer/ui/editor/composer/GeneralSection$4.cla
+ ss
+SHA-256-Digest: hI4AlSKWS3Dy9PR4h0VniUCxkjY3ZTj8mnR+OQ2mN0k=
+
+Name: org/eclipse/php/composer/ui/editor/composer/DependencySection$1.
+ class
+SHA-256-Digest: pBC6Uh1m1RjhBGF7/ge/0/UAHheKcGhDGTuAJ7b2pFA=
+
+Name: org/eclipse/php/composer/ui/editor/composer/DependenciesPage.cla
+ ss
+SHA-256-Digest: mil8dhMR+ppYp7BNTM1QQQku9dqiJSHP7DnFydW7yqw=
+
+Name: org/eclipse/php/composer/ui/parts/FormEntry$1.class
+SHA-256-Digest: W7QYgK+YR8CCpWReO5X/fB843bk5/R3b5uaR2llYV6Q=
+
+Name: org/eclipse/php/composer/ui/parts/composer/VersionSuggestion$7.c
+ lass
+SHA-256-Digest: GFzq8ShQ5xVshzKlfsc9NHfO/b5PI3+daFvu1rVRnvU=
+
+Name: org/eclipse/php/composer/ui/editor/composer/ComposerFormEditor$1
+ RemovedResourceDeltaVisitor.class
+SHA-256-Digest: TP54UUuSA/e07FiZPIdas+Sw31kHN8hfWd1OOvofXGA=
+
+Name: org/eclipse/php/composer/ui/job/runner/ComposerFailureMessageRun
+ ner.class
+SHA-256-Digest: RWnjhzajXaidZoD5dtnX91sSytWFmSSC0z6d0Qt7RKM=
+
+Name: org/eclipse/php/composer/ui/job/ComposerJob$DownloadRunner$1.cla
+ ss
+SHA-256-Digest: uRqW8PyXfhJ85f3SDNqnx/xKPcEw/PAtPr7qGjwrlxY=
+
+Name: org/eclipse/php/composer/ui/parts/FormEntry$3.class
+SHA-256-Digest: kuys+02gkGhl43WE6OBz2AhsMeaO/mGPMHXL/psancg=
+
+Name: org/eclipse/php/composer/ui/parts/composer/PackageSearchPart.cla
+ ss
+SHA-256-Digest: CblE7FOQUg9IK+B8W8DQAv2rzzFvvSSwJkz45j0WAhE=
+
+Name: org/eclipse/php/composer/ui/editor/composer/GeneralSection$7.cla
+ ss
+SHA-256-Digest: q8++YFcO/NLbo+A6ED7xGIc3d5+h4j/V5aGL91Wr4ZQ=
+
+Name: org/eclipse/php/composer/ui/editor/composer/RepositoriesSection$
+ 1.class
+SHA-256-Digest: Zngg1K+uzGagJD2soUifT7RMy0MqQ8O3h/AyoZMr5oY=
+
+Name: icons/full/obj16/composer.png
+SHA-256-Digest: SPK8/4J3QHILhLv8p1HPeqDV9n7kjhrV2xzVHRrWl3Q=
+
+Name: Resources/intro/css/intro.css
+SHA-256-Digest: wgVxBsSmXg6CoeJZ2xQ+Xu3gCF5nEEUKKAp0OMFdii8=
+
+Name: org/eclipse/php/composer/ui/editor/composer/ComposerFormEditor.c
+ lass
+SHA-256-Digest: e/35q0iZN0Qr2zyrDkV3mDiCvfROZQ6ZAEJf3ZrFlps=
+
+Name: org/eclipse/php/composer/ui/parts/composer/PackageSearch$5.class
+SHA-256-Digest: xO9TbYLabZdDBwCWQF7dObeJkl5SL3mlfCLX2oRnGxA=
+
+Name: icons/full/obj16/correction_move.gif
+SHA-256-Digest: bwGdj0Olkqqcf/tOgWuZZj58Aki50m9715kLC7nKSDg=
+
+Name: org/eclipse/php/composer/ui/editor/composer/DependencySection.cl
+ ass
+SHA-256-Digest: JoBKwNlZVRldOdjBUAC7WV8VWy/kl45tZapwuQ6nkec=
+
+Name: org/eclipse/php/composer/ui/editor/composer/OverviewPage$2.class
+SHA-256-Digest: A42yOQc2tMHUA0i+s1VXK7LSmTUR9hl63jFWyuOadoA=
+
+Name: org/eclipse/php/composer/ui/editor/composer/GeneralSection$10.cl
+ ass
+SHA-256-Digest: 6TkQakgq7q4GnAtIz8KkZ3+S+NMSd7a1gMoBW7gaJCw=
+
+Name: org/eclipse/php/composer/ui/preferences/SaveActionsConfiguration
+ Block.class
+SHA-256-Digest: yv8kOUcAQJuwgIZabJT8Ra4TnIVie1FzYyYtWPRDHdU=
+
+Name: org/eclipse/php/composer/ui/actions/ComposerAction.class
+SHA-256-Digest: 1wFI28tH17FwL9p7+U7Ce+Qj01l0vFTyKzaijWzpV1A=
+
+Name: org/eclipse/php/composer/ui/job/UpdateJob.class
+SHA-256-Digest: Ko3gDmhWdg6MKGuxg1bhzzckSTabAU6Mq3L1BBiDx/Y=
+
+Name: org/eclipse/php/composer/ui/converter/Keywords2StringConverter.c
+ lass
+SHA-256-Digest: pDoCbk2VfuRQriSAFhg733WhcV3qYSt3B8J4dRCtilI=
+
+Name: org/eclipse/php/composer/ui/explorer/PackageTreeLabelProvider.cl
+ ass
+SHA-256-Digest: EHtkP6Rir0rV8lm3Z9GGGZadolcKSoIbb9No22hFAMo=
+
+Name: Resources/launcher/testexecutable
+SHA-256-Digest: n6eYKzaIJ+JQ8zAowl0d0lLNuXHnQs6x4SzviU1btu0=
+
+Name: org/eclipse/php/composer/ui/parts/composer/PackageSearch$6.class
+SHA-256-Digest: TbMQCQ9GHU0JW5mWxRtDTLqhpepX/IGYrHgaWrRiAVs=
+
+Name: org/eclipse/php/composer/ui/job/SelfUpdateJob.class
+SHA-256-Digest: nlCoZYZKk+3b7FSKgcFXNJTEEr/LYKuXuA7dlpprSM0=
+
+Name: org/eclipse/php/composer/ui/editor/composer/ScriptsSection$1.cla
+ ss
+SHA-256-Digest: twqcn+07m9N73+U3C25ua8iV2cDXreLf6tfJXQiN4b0=
+
+Name: org/eclipse/php/composer/ui/editor/composer/SupportSection$8.cla
+ ss
+SHA-256-Digest: ahd4Hlsum/DRpI1O1L5W3DmLHI5FlGx7wSF3pTVlveU=
+
+Name: icons/full/obj16/selfupdate.png
+SHA-256-Digest: sB1NyQP/Jcit17DQNQrLsUIfe+1j+TB0B3ZoTmlKHwc=
+
+Name: org/eclipse/php/composer/ui/preferences/BuildPathManagementPage.
+ class
+SHA-256-Digest: yotn7QU0kNIyRav958IPG6gt5BzMv89U88mBoJO1ojg=
+
+Name: org/eclipse/php/composer/ui/editor/composer/SupportSection.class
+SHA-256-Digest: LweNVlHkgx8p4tlEtDFZ2+haBKY2NuKya3/OZpT3d7o=
+
+Name: org/eclipse/php/composer/ui/editor/composer/GeneralSection$6.cla
+ ss
+SHA-256-Digest: 2fXtqiUUifaOOJTLKO+rQ5jHws/7UdiEY4f8Y3uy6IY=
+
+Name: org/eclipse/php/composer/ui/preferences/launcher/LauncherConfigu
+ rationBlock$5.class
+SHA-256-Digest: XgkxU66uIaqPpoEr1dUx5hEfutvimCilbvP8ez0Mue8=
+
+Name: org/eclipse/php/composer/ui/wizard/project/ComposerProjectCreati
+ onWizard.class
+SHA-256-Digest: y61WeEXxqWvNDgod7G06YHowwIc8VDrCOK9EgGE60K8=
+
+Name: org/eclipse/php/composer/ui/wizard/AbstractWizardFirstPage$1.cla
+ ss
+SHA-256-Digest: gvV10UioCHGS17nRdJszXd4ZMGvyMVEoBPYHsfBj1KE=
+
+Name: org/eclipse/php/composer/ui/editor/StructuredViewerSection$1.cla
+ ss
+SHA-256-Digest: nPV7kUZLOG0QvKSSrkIcN3TWXU+aiMi0BJtwAWaeFO4=
+
+Name: org/eclipse/php/composer/ui/job/runner/MissingExecutableRunner.c
+ lass
+SHA-256-Digest: 0QGWQUsg/PLx5p+BmBRdqtwC7zVfIW7x2vRTEBr8jVM=
+
+Name: org/eclipse/php/composer/ui/parts/FormEntry.class
+SHA-256-Digest: rclBR2ebXzBndmctmHe8k510xT5HqpaENzCtDouQcao=
+
+Name: org/eclipse/php/composer/ui/wizard/AbstractWizardSecondPage.clas
+ s
+SHA-256-Digest: nL2pK2vfxHMKUBs0EQ1fPUk7JdoKe30yror04BIcgB4=
+
+Name: org/eclipse/php/composer/ui/editor/composer/ScriptsSection$2.cla
+ ss
+SHA-256-Digest: ZW5QBQxbvguwffT03Z/uIQ5yhJQZsGE/rdyyrxkPNxo=
+
+Name: icons/full/obj16/script2.png
+SHA-256-Digest: NuqSX8iFW6DZkoAAkd9p1OxGQTsPQb8RY4h74m4dPEs=
+
+Name: org/eclipse/php/composer/ui/editor/composer/AuthorSection$1.clas
+ s
+SHA-256-Digest: Xv5aSYz2vJL4htfVT+GgfMQsoNxH1Nm9Vxj3U4PsGlY=
+
+Name: org/eclipse/php/composer/ui/ComposerUIPluginConstants.class
+SHA-256-Digest: mzof/oDvmpIprZqSJfRM+i4F/TZtBg4/RSN/bIEA2IA=
+
+Name: org/eclipse/php/composer/ui/parts/WeblinkFormEntry$1.class
+SHA-256-Digest: E6vzG8fi8NF8P8eJ5adkNveEwKqnkF7c20WvyrHfNPk=
+
+Name: org/eclipse/php/composer/ui/editor/composer/RepositoriesSection$
+ 2.class
+SHA-256-Digest: d+XYBKqVlxM8ujWJmgYxWqLuSdSVMOcI7S5P4+HNzO8=
+
+Name: org/eclipse/php/composer/ui/editor/composer/SupportSection$7.cla
+ ss
+SHA-256-Digest: SelUcMbLyVe3442RHprUyS8vCkyZPXcmaO6Kpn4tCR0=
+
+Name: org/eclipse/php/composer/ui/parts/composer/VersionSuggestion$8.c
+ lass
+SHA-256-Digest: IHrnlJDaY297bWd1Rf5qw3sQYTd4CFX8NqveF8Z584Y=
+
+Name: org/eclipse/php/composer/ui/converter/License2StringConverter.cl
+ ass
+SHA-256-Digest: ZzGLnnPqTyjCXabuM6dgXRGXpbwizdu8nB1rRMnujsI=
+
+Name: icons/full/wizban/newpack_wiz.png
+SHA-256-Digest: Dt5ADRqwGzRKppwoJV26Pp+Aggh/66ncBxfR79zsJqg=
+
+Name: icons/full/wizban/packagist.png
+SHA-256-Digest: UTehhIf497iLoluRhbC3RxAVF6MvlFAjIOEfSn4fcJg=
+
+Name: icons/full/obj16/repo_mercurial.png
+SHA-256-Digest: EyxvM55mhzWTGdH37ppzYMxCgEjDYjxRAZR1k7b6IjI=
+
+Name: org/eclipse/php/composer/ui/dialogs/PersonDialog$3.class
+SHA-256-Digest: TrIjxoPdDsbJJTaP77XiS7DQd0GZQ4cNv9/xnvrUsrU=
+
+Name: org/eclipse/php/composer/ui/parts/composer/PackageSearch.class
+SHA-256-Digest: OExB+x7CZNRiY47BW0ScDL4Tgm5xnkxFy2YhJEOup8E=
+
+Name: org/eclipse/php/composer/ui/job/CreateProjectJob$DummyResource.c
+ lass
+SHA-256-Digest: vmB1plr29O4Zgd44kgIW0VfuD3SU7udJNfOR2lbgCyg=
+
+Name: org/eclipse/php/composer/ui/wizard/project/template/PackageProje
+ ctWizardSecondPage$1.class
+SHA-256-Digest: dTVkEL/tlWjI8AGUQVzsEqMu+W08b7PuY8umN/Vd3Cg=
+
+Name: org/eclipse/php/composer/ui/editor/composer/GeneralSection$11.cl
+ ass
+SHA-256-Digest: TjBGTOHE+SzPUgBcvJ0KKaDGLt9JjCuxez1pMPE03w4=
+
+Name: org/eclipse/php/composer/ui/editor/composer/ComposerFormEditor$2
+ .class
+SHA-256-Digest: mVCaXZ2eAhjMl3Y+YT4UjM8AmhY7Rsp2fNe5l0p4xp0=
+
+Name: org/eclipse/php/composer/ui/editor/composer/RepositoriesSection$
+ RepositoriesController$1.class
+SHA-256-Digest: 5eR+o8Nnyb7K5aAgK0TTACs/fMEySzpjGPrG4p4EGzo=
+
+Name: org/eclipse/php/composer/ui/editor/TableSection.class
+SHA-256-Digest: ifPmX/A0/ZfHQKw7NDl5QRmsj8ppZyqyJr6YhncdVMw=
+
+Name: org/eclipse/php/composer/ui/wizard/project/template/PackageFilte
+ rViewer$3$1.class
+SHA-256-Digest: vSz5CR0oKTsZGYQPYaixHJDuOAywacskMzUyjz13Ayw=
+
+Name: org/eclipse/php/composer/ui/converter/String2ListConverter.class
+SHA-256-Digest: udZwnBNoVjJDO5+NPqxLwSNXtpecgCuBaT5GaaMbVG8=
+
+Name: icons/full/obj16/repo_git.png
+SHA-256-Digest: 7eY4BBee8AonAIlugsuC7e2aI0KcCpuUbv5GO+beAmE=
+
+Name: org/eclipse/php/composer/ui/converter/String2KeywordsConverter.c
+ lass
+SHA-256-Digest: G4CBK+HUA3i5yLLabUDNOf+5GLoxZV3WtYI6nVGdKSg=
+
+Name: icons/full/obj16/update_dev.png
+SHA-256-Digest: GrESHSGwAZUoij7co2XS+TkS3Rz730qmW83IEsHXClk=
+
+Name: icons/full/obj16/repo_generic.gif
+SHA-256-Digest: iyEdqe4eMaeG5qKbdu//L/+48c+3tImyir/DQsRdVkg=
+
+Name: org/eclipse/php/composer/ui/dialogs/ResourceDialog.class
+SHA-256-Digest: 3CHZ/KrHdUiyjZlDb+9KLiy0VkDLNj9oXDLs72YMCMM=
+
+Name: org/eclipse/php/composer/ui/editor/composer/GeneralSection$5.cla
+ ss
+SHA-256-Digest: unTYUcy71zZtDy9sgwFoN3S38XNDWHvzv7rvZukUe7c=
+
+Name: org/eclipse/php/composer/ui/editor/composer/DependencySearchSect
+ ion.class
+SHA-256-Digest: 4q47tuwEIdVh3y1OZ8AaG94oLbQMXDbs1PFKrB4KCpY=
+
+Name: org/eclipse/php/composer/ui/controller/PackageController.class
+SHA-256-Digest: 0zBx8Kd7Tm5zVyjkVF/eyQkvVoyKydlkm13uHvuNPEs=
+
+Name: icons/full/obj16/clear.png
+SHA-256-Digest: 4qGMySpvevUnTdT/vSDGOriQeswK3BQ+ErxzXwSIzEw=
+
+Name: org/eclipse/php/composer/ui/parts/StructuredViewerPart.class
+SHA-256-Digest: hX6cjRnWzWXp+L1wJFbFVvUXSnQ1kM13Za9QM76uO/o=
+
+Name: org/eclipse/php/composer/ui/editor/composer/DependencySection$3.
+ class
+SHA-256-Digest: ADEXd0w2XcPyo4G6kjAnW7koHHaTRRKp8G/FQZ5ybBk=
+
+Name: org/eclipse/php/composer/ui/controller/IController.class
+SHA-256-Digest: Ovhe3uonzl+KAZqWifD67SseGjBIzUat63etwuQGiAE=
+
+Name: org/eclipse/php/composer/ui/parts/composer/VersionSuggestion$6.c
+ lass
+SHA-256-Digest: 2UYOQrxcD2KsG1vk64JWCrBuWXsjJBSZf7Oh5VNp1RU=
+
+Name: org/eclipse/php/composer/ui/editor/toolbar/SearchControl$2.class
+SHA-256-Digest: IgftDlfeia5Fya0+mXEllKu1V2ZiMqYOwz8izzI4eSg=
+
+Name: org/eclipse/php/composer/ui/job/CreateProjectJob$1.class
+SHA-256-Digest: u/2lr8vnclmi70lRzJUHlYJ3tNmOd+y+dNsiZEWi0O0=
+
+Name: org/eclipse/php/composer/ui/editor/composer/SupportSection$3.cla
+ ss
+SHA-256-Digest: 5AkP61TZXx//FCEFqkKi5l+OKhj77q3Ohm3hUKlajVQ=
+
+Name: icons/full/obj16/repo_pear.png
+SHA-256-Digest: rBAXzbib77spJUOc8dfJREGvSvjLGs6DSevpWct/BX0=
+
+Name: org/eclipse/php/composer/ui/converter/String2LicenseConverter.cl
+ ass
+SHA-256-Digest: 7+qJRAx3AmnFE1rGktXEVqWEe2a2mCsLd6VY08mLSRA=
+
+Name: org/eclipse/php/composer/ui/utils/WidgetFactory.class
+SHA-256-Digest: qts6KHUWmFtN0oBfUoDalcVLiFGT8xNFvIjnoaD9MYk=
+
+Name: org/eclipse/php/composer/ui/dialogs/RepositoryDialog.class
+SHA-256-Digest: DH2mjqACOH1beUCIk81nIqT64ubBwSDYB0XwNqi8D/4=
+
+Name: org/eclipse/php/composer/ui/wizard/project/template/PackageFilte
+ rViewer.class
+SHA-256-Digest: tveTIRwUun3dkasyIWDWB1yhK/C+TURlOpzO5YWPVJ0=
+
+Name: org/eclipse/php/composer/ui/wizard/project/template/PackageFilte
+ rViewer$3.class
+SHA-256-Digest: 5vfOXFER3MHLoSV5ZJ6fTN9khe1ads3Rm6+/k5q+AU0=
+
+Name: icons/full/obj16/event.png
+SHA-256-Digest: 3zxLH6TD/KMIKvCOrcWknEu1WnT0nlJaIlyMLMUN8cc=
+
+Name: org/eclipse/php/composer/ui/parts/SharedPartWithButtons.class
+SHA-256-Digest: ktwwMlYDe7Qf1voYMpaaDE5Cve7iQ/knG2vCmOx6fdM=
+
+Name: org/eclipse/php/composer/ui/editor/composer/SupportSection$9.cla
+ ss
+SHA-256-Digest: qvW4HU/5EzZJeEHYeMaKBC+xONVOimzL8pPZeM7Vunw=
+
+Name: org/eclipse/php/composer/ui/parts/composer/DependencySearch$1.cl
+ ass
+SHA-256-Digest: 0uaOKqk0Ntqf0AYYUz/ILovjc04LggUVX6uwczybfvQ=
+
+Name: org/eclipse/php/composer/ui/wizard/importer/ComposerImportWizard
+ $1.class
+SHA-256-Digest: RpLTAFDvrlQdBGDaiZzkFrj9Cn0hDkWaY61OBoCXX1g=
+
+Name: org/eclipse/php/composer/ui/preferences/launcher/LauncherConfigu
+ rationBlock$5$1.class
+SHA-256-Digest: EtEX7/ZuhICVo9sBftFRDzWf/Gq1DNmPmrYH7vhBLMI=
+
+Name: org/eclipse/php/composer/ui/parts/composer/PackageSearch$4.class
+SHA-256-Digest: 0OcDSbNwpIooskjpDdBMA9RlxpFrCHRTmowV+iDJ+1M=
+
+Name: org/eclipse/php/composer/ui/wizard/project/AutoloadValidator.cla
+ ss
+SHA-256-Digest: Q4tVHWVt9Tul02cw/zvvg4zzEh3FihZYkZ2uH9+uo+I=
+
+Name: org/eclipse/php/composer/ui/parts/composer/DependencySelectionFi
+ nishedListener.class
+SHA-256-Digest: cnb06EMJwFNvk6jFuKjiR1LfOXHsbL/2zVhRolxs+F8=
+
+Name: org/eclipse/php/composer/ui/dialogs/RepositoryDialog$1.class
+SHA-256-Digest: jluWiuAgFHhEPABp2bcgrhpzZsXBVC7VcLDOKZ5FrJ4=
+
+Name: org/eclipse/php/composer/ui/dialogs/DependencyDialog.class
+SHA-256-Digest: XxLflMlZ0aOZLwS6go2Dzl9S3FGfgKZZnodyCMDaD/U=
+
+Name: org/eclipse/php/composer/ui/editor/composer/ConfigurationPage.cl
+ ass
+SHA-256-Digest: RsV8FHbtOXPk+obMPnfQMoQlk6vRihF8aQcAbqYeYgA=
+
+Name: org/eclipse/php/composer/ui/actions/InstallDevAction.class
+SHA-256-Digest: e8X3Czhj0sQtokc4lhWcKFFT4En1+7MjPYndh6nvxoQ=
+
+Name: org/eclipse/php/composer/ui/editor/composer/DependencyGraphPage.
+ class
+SHA-256-Digest: XbA3mBMnPp0OWetohof0pJZbryc189TDFtpb5QNG8uc=
+
+Name: org/eclipse/php/composer/ui/parts/TablePart$2.class
+SHA-256-Digest: MfdpxaXQA5OL5EeBv8mZXHg7pfB3OV8O/Ty1+h0UaYU=
+
+Name: org/eclipse/php/composer/ui/wizard/importer/WizardResourceImport
+ Page.class
+SHA-256-Digest: d3N+kjRMb/wVusOKuCTmelYWhnacRCn3HXMkqLmqSNM=
+
+Name: org/eclipse/php/composer/ui/parts/composer/VersionSuggestion$Ver
+ sionSorter.class
+SHA-256-Digest: zHj+5bHcDMdwkk3Zhc8UZEE1LJ+JX7e5+Z/z2DROm/A=
+
+Name: org/eclipse/php/composer/ui/editor/FormEntryAdapter.class
+SHA-256-Digest: MsJ3BAYoV8pVXMSpT5iFGMySni+SdS6bURVgEstCwgc=
+
+Name: icons/full/obj16/update.png
+SHA-256-Digest: 4zahL1FYnTW37KHdX3HDT0Xoq66WMuvNlu9f4sRNVdM=
+
+Name: org/eclipse/php/composer/ui/editor/composer/PsrSection.class
+SHA-256-Digest: lP1ePUP2ImkvqnmTCT+8KKzeLlHSt7nE3yEDvxFrPBM=
+
+Name: org/eclipse/php/composer/ui/controller/ScriptsController.class
+SHA-256-Digest: uqBb8FotetVcOnNId7yP7YNh2kCNjcYEcTET9UfNWBo=
+
+Name: org/eclipse/php/composer/ui/facet/FacetInstallWizardPage.class
+SHA-256-Digest: 0mOey9bAmw53ISv01SWKR3A8/3MhBmKWlReQkGOTCyk=
+
+Name: org/eclipse/php/composer/ui/editor/ComposerSection.class
+SHA-256-Digest: NC4JtVc/c43Vu8383nqjrS6jq6YXFqtcMGl8d0lyX00=
+
+Name: org/eclipse/php/composer/ui/editor/composer/ComposerFormEditor$1
+ .class
+SHA-256-Digest: ZzrKZBgLQjWp2oQp5yZPdGveLoPjlT4ugvv3l/UVEDA=
+
+Name: org/eclipse/php/composer/ui/editor/composer/AuthorSection.class
+SHA-256-Digest: tO5Fg5aMh2ImDMVjZF7RxvnK1NmOrNddoNAD7xjuC94=
+
+Name: icons/full/obj16/clear_disabled.png
+SHA-256-Digest: G6LPwEwLUH2A0q7uq0dysa/7WbpBP6yYuv0OvmUtMR0=
+
+Name: org/eclipse/php/composer/ui/wizard/DetectGroup.class
+SHA-256-Digest: r8b3U7R5GfWopanSw4kGLHWO8yTjdTjQ/wZLpEzbrTU=
+
+Name: org/eclipse/php/composer/ui/dialogs/PsrDialog$1.class
+SHA-256-Digest: XGZ7Lp/4stfCH1a352WYBum3g0qrzgnEAhSr3/WDRVE=
+
+Name: org/eclipse/php/composer/ui/preferences/ComposerPreferencePage.c
+ lass
+SHA-256-Digest: xhR6auCi4uW9IgL+3olPsE4l0uD0MfYgr1hgrawZVpM=
+
+Name: org/eclipse/php/composer/ui/editor/FormLayoutFactory.class
+SHA-256-Digest: veTFkLls6fL7N/3YjKF8he0bZL4sNsFBkF7c/BVeyFU=
+
+Name: org/eclipse/php/composer/ui/editor/composer/SupportSection$4.cla
+ ss
+SHA-256-Digest: SnK6xXaGvcq90jSI6dM9sTviFrpQPA1hchaFcPJ1LvA=
+
+Name: org/eclipse/php/composer/ui/dialogs/RepositoryDialog$2.class
+SHA-256-Digest: O+Yt4MdsbDW/Rd2kmxPUGw8UsHsB1JJ136tvEgkW0As=
+
+Name: org/eclipse/php/composer/ui/dialogs/PersonDialog$2.class
+SHA-256-Digest: 3Q3D/ExKaIDmH8kYIBaEwsshtaDGKb2s0199kONpkpY=
+
+Name: org/eclipse/php/composer/ui/editor/composer/GeneralSection$12.cl
+ ass
+SHA-256-Digest: zyD6xj6vRj88ZwPW6JoKPG0x5kzWuOspjpTemaR1oPc=
+
+Name: org/eclipse/php/composer/ui/parts/composer/VersionSuggestion$5.c
+ lass
+SHA-256-Digest: tTTnUe+ln/MvctGx7mXd3wNmC9vBNWU9L6ZIPRwUz/I=
+
+Name: org/eclipse/php/composer/ui/job/UpdateDevJob.class
+SHA-256-Digest: a8De7a7M0GrJohm1OVcsR7BvOuoqem9nuVhEHYYHvz0=
+
+Name: org/eclipse/php/composer/ui/editor/toolbar/SearchControl$1.class
+SHA-256-Digest: 2HKVtPlBU5QHUcPzu1lTPdebiRL8IascDOAt0RkBKg8=
+
+Name: org/eclipse/php/composer/ui/preferences/BuildPathExclusionWizard
+ .class
+SHA-256-Digest: wzvBgRN36rzClk2y68DaAlLSB+k9cD7HWErWskjYkjU=
+
+Name: org/eclipse/php/composer/ui/wizard/LocationGroup.class
+SHA-256-Digest: DR3OAtkKdqPLZ+ow2axSiWwIrTIshHXSMVGXSjrk1m8=
+
+Name: org/eclipse/php/composer/ui/job/ComposerJob$1.class
+SHA-256-Digest: QfE/9xaXFXZAc3Srm0KKLw/YUKFwv6PSTRlMwHLRsSI=
+
+Name: org/eclipse/php/composer/ui/editor/composer/DependencySection$2.
+ class
+SHA-256-Digest: dTWcStZxxlwSHk+S8ZEw3fqglWuXJs7/Ung/MM9YRBY=
+
+Name: org/eclipse/php/composer/ui/preferences/launcher/LauncherConfigu
+ rationBlock$5$1$1.class
+SHA-256-Digest: shG5U4StkDaTIFGOZPrCdY8p7NwLhVIr5Bmq/WXjQ7Q=
+
+Name: org/eclipse/php/composer/ui/parts/composer/DependencySearch$2.cl
+ ass
+SHA-256-Digest: A9s5Ja2j2LN6SBR7tr150lx7ssCshJMdlRjfAvcuDME=
+
+Name: org/eclipse/php/composer/ui/preferences/launcher/LauncherConfigu
+ rationBlock$1.class
+SHA-256-Digest: SxYJmm3mAB5vsHFDfOR8Fk6vDsH63DZtk1M2wfPZDcs=
+
+Name: org/eclipse/php/composer/ui/dialogs/ComposerJobFailureDialog.cla
+ ss
+SHA-256-Digest: 6y/WiSB+2IVksr7aIw+5n6Rh9Hhxv1w9ExiCYqLfUME=
+
+Name: org/eclipse/php/composer/ui/parts/WeblinkFormEntry.class
+SHA-256-Digest: BPCntyqTu5EHKr30Ai8SqFosmTZqNV+8mH+d2n+VJS0=
+
+Name: icons/full/obj16/php.png
+SHA-256-Digest: O8NRuhNSFkNzdGDEq2SLV9k0NW1Rxk49zhxxhDn4R/I=
+
+Name: org/eclipse/php/composer/ui/wizard/project/template/PackageFilte
+ rItem.class
+SHA-256-Digest: 7zYEBiV0KEg6msTnZBzGZCUJjkJTRgikbrJrJoYKrE8=
+
+Name: org/eclipse/php/composer/ui/editor/TableSection$PartAdapter$1.cl
+ ass
+SHA-256-Digest: 8o6OwDQv3Kk81HAQ6tZV8uQBQETSsK8mnSQ4q5lkICA=
+
+Name: org/eclipse/php/composer/ui/dialogs/PsrDialog$2.class
+SHA-256-Digest: yL4oN+SiNQ+WFVbQNF6oq9stji9sb7lSSI1NFYWNegU=
+
+Name: org/eclipse/php/composer/ui/explorer/ComposerBuildpathContainer.
+ class
+SHA-256-Digest: ufnQ9YcQUsLJKsLcmQvhgnpsL2Q2RNqihfXs33pcNVE=
+
+Name: org/eclipse/php/composer/ui/actions/SelfUpdateAction.class
+SHA-256-Digest: dJCxSXZwPo97dwe1eHOyCOy/ptR8vjidkIhK42txIkk=
+
+Name: org/eclipse/php/composer/ui/preferences/launcher/LauncherConfigu
+ rationBlock.class
+SHA-256-Digest: DAg+3Cgcnbz9cdxFSCvGWg0oFqnfhPbmTw9Id354oCE=
+
+Name: org/eclipse/php/composer/ui/job/CreateProjectJob$DummyProject.cl
+ ass
+SHA-256-Digest: uS6ogmsq316oetnKP9vEgKffvYVpU355cp39P/XJSGo=
+
+Name: org/eclipse/php/composer/ui/handler/AddComposerSupportHandler.cl
+ ass
+SHA-256-Digest: 2fq9xppGPUKra9KahvcKw06q0gqvgz9O2QIV7RNjODU=
+
+Name: org/eclipse/php/composer/ui/explorer/PackageTreeContentProvider.
+ class
+SHA-256-Digest: jWck1GtrJbavDwcFygpo1vTNJA7HYlT3dOUKVYVuwzs=
+
+Name: org/eclipse/php/composer/ui/wizard/project/template/PackageFilte
+ rViewer$2.class
+SHA-256-Digest: yWLycpuGvG7Xf/SOGYrzbu4l9SV7EDqVc/bprR3ubQk=
+
+Name: org/eclipse/php/composer/ui/wizard/project/template/PackagistIte
+ m$2.class
+SHA-256-Digest: cQkSw9Ye504AfGAJ6icz1yvDd+1hze8fnLjL1R8tZ6c=
+
+Name: icons/full/obj16/download.png
+SHA-256-Digest: TI8Dr9BKA2OmlahYL1o+Z6P6oUECM6u2UYciPo/1nm0=
+
+Name: org/eclipse/php/composer/ui/dialogs/PsrDialog$3.class
+SHA-256-Digest: dVKPTZ+cx207ExBipdeX7fS+uMmNQp53ieKZEiRmMps=
+
+Name: org/eclipse/php/composer/ui/job/DumpAutoloadJob.class
+SHA-256-Digest: qeU3BDp/tSJXJUl6EkN6w5EFaoYMg57OYjf2MlgwrMw=
+
+Name: icons/full/obj16/install_dev.png
+SHA-256-Digest: SDgJQkrCUmXx3ugA039KFynMq5iq5cxrOrTFUQs0tRk=
+
+Name: icons/full/obj16/browser.png
+SHA-256-Digest: WukxQINYLqf8MAxIdMRyH6Jx6S4HK8HyDWkHjd74dbM=
+
+Name: org/eclipse/php/composer/ui/editor/ComposerFormPage.class
+SHA-256-Digest: OPjDYYpL/lIg5VUODDHBpm+xHEvp3mgE/84UTNGQeg8=
+
+Name: icons/full/obj16/repo_generic.png
+SHA-256-Digest: eSJjf7l7fdKpi6oYVyW7rn3wkTa4eQwbaWQRGRReKFc=
+
+Name: org/eclipse/php/composer/ui/dialogs/RepositoryDialog$3.class
+SHA-256-Digest: hYdDLbfQ/1nqtvYmRJNGY2dEnu7H3DrntwaShJ03MJI=
+
+Name: org/eclipse/php/composer/ui/job/ComposerJob$DownloadRunner.class
+SHA-256-Digest: JukRa3AuUH4MUazRUaZPpc/yBCh+z7Sd4GQCwJGUcyA=
+
+Name: org/eclipse/php/composer/ui/parts/BooleanFormEntry$1.class
+SHA-256-Digest: 7OVpMl/uq6vh9n8BmbBTi6RjuPRB0RRf+2gdrff8z5w=
+
+Name: org/eclipse/php/composer/ui/wizard/importer/WizardResourceImport
+ Page$3.class
+SHA-256-Digest: HvUBvu0iE/cULH5BeyAcwQ9cdFf7Vs8TPi/DokJdr8I=
+
+Name: org/eclipse/php/composer/ui/editor/composer/AuthorSection$Author
+ Controller.class
+SHA-256-Digest: pc7JiCXNCJQ3gZM/5GcpEmxAg4iOSH8G5WVbBCeQVFk=
+
+Name: icons/full/obj16/buildpath_exclude.gif
+SHA-256-Digest: HU/53LrccDbUtd4qvVKxmsraTXf36W4O3PH5PFv/V48=
+
+Name: org/eclipse/php/composer/ui/editor/composer/DependenciesPage$2.c
+ lass
+SHA-256-Digest: HqYlce/DGVpf/W1qeoj/dTip0ywS3mvcWR0zo2gUReo=
+
+Name: org/eclipse/php/composer/ui/properties/SamplePropertyPage.class
+SHA-256-Digest: S6iB/QxNEUn/Y74sVmKpqUWnm2Dd3WVwIJDSu5S+g18=
+
+Name: org/eclipse/php/composer/ui/parts/IComboFormEntryListener.class
+SHA-256-Digest: bsCAi0pLjz/G4IEAcfOE4ORFp5NIJ58OIZp037+5Pu8=
+
+Name: org/eclipse/php/composer/ui/wizard/project/template/PackageProje
+ ctCreationWizard.class
+SHA-256-Digest: deiQaSrpH5zHDHj9i1n7w/mCfA35hIXaWy5+Cad/KQc=
+
+Name: org/eclipse/php/composer/ui/editor/composer/ConfigSection$4.clas
+ s
+SHA-256-Digest: CfccYpwWk+hZDFN6FrZHn/b3OjS3SeUsVqCEMl/qW2I=
+
+Name: org/eclipse/php/composer/ui/editor/composer/GeneralSection$1.cla
+ ss
+SHA-256-Digest: A9Ur/CHzeLeK9OOXauh0lCQ3ZaYRbVOD2VZf2taUvNo=
+
+Name: org/eclipse/php/composer/ui/wizard/importer/ComposerImportWizard
+ .class
+SHA-256-Digest: 4qvZ+X6ytrqfZq10iEL9hy5agIQuJI2vPW71qJzpPjk=
+
+Name: Resources/help/help_contexts.xml
+SHA-256-Digest: 3i3kBdUcEA/ammMMeKYhppd9lADOUajKzozFVJ9A338=
+
+Name: org/eclipse/php/composer/ui/parts/ComboFormEntry$1.class
+SHA-256-Digest: tXsw+3HyqnxXBZeqTrhXqIY14dAG+RpqsPssW4oVgYk=
+
+Name: org/eclipse/php/composer/ui/wizard/project/ComposerProjectWizard
+ SecondPage.class
+SHA-256-Digest: ErGuu1ZJU+TateO0YeCioiq8i+lmaZ4uBxIOELYLceg=
+
+Name: org/eclipse/php/composer/ui/preferences/launcher/LauncherConfigu
+ rationBlock$5$1$2.class
+SHA-256-Digest: 8FpE6gn023TKWawzADdctl+5AjmIPrPYTWMHWuH6150=
+
+Name: org/eclipse/php/composer/ui/editor/TableSection$PartAdapter.clas
+ s
+SHA-256-Digest: radOZ0YpFp/bQ/qTsAjpp40XRHpBr22AmI/EZ4C4u0I=
+
+Name: org/eclipse/php/composer/ui/editor/StructuredViewerSection.class
+SHA-256-Digest: xc/wETBy0a9Sbhxl/s888R0S+ynYVAAQOryGxhQshtk=
+
+Name: org/eclipse/php/composer/ui/dialogs/PersonDialog$4.class
+SHA-256-Digest: 7LAeC02cc4JQuWTu0vpQfZv+fYAPGnIu7rd56bsoGs8=
+
+Name: org/eclipse/php/composer/ui/dialogs/PsrDialog.class
+SHA-256-Digest: 4pmzcA1nRMFb5V03PPruLdvaU6NUjGE7lHAn0P10PVM=
+
+Name: org/eclipse/php/composer/ui/job/DownloadJob.class
+SHA-256-Digest: 93QlG2E7juaLMUTqqR88wdiAQGaauhQ+qEHRgfUGD/U=
+
+Name: icons/full/obj16/person.png
+SHA-256-Digest: 8kVrlNVrjeEGRnzrCnYT1XGnTsRrx1imFQsZCPkWm9s=
+
+Name: org/eclipse/php/composer/ui/editor/composer/ConfigSection$7.clas
+ s
+SHA-256-Digest: 28SO7grU18wFKQfPax2hgKUpx/+gSkHiRc9C4HMgec4=
+
+Name: org/eclipse/php/composer/ui/wizard/AbstractWizardSecondPage$2.cl
+ ass
+SHA-256-Digest: AHJVxHpmo/+DPu8175Ini1gMlyuE5m+yeJ9Rr3T47gA=
+
+Name: META-INF/maven/org.eclipse.php/org.eclipse.php.composer.ui/pom.x
+ ml
+SHA-256-Digest: NbeZ+ziJrWXo1nbzE80MASPHtWIiLo/Lrh3wrs6A52A=
+
+Name: org/eclipse/php/composer/ui/dialogs/DependencyDialog$1.class
+SHA-256-Digest: HITAOutpm80n1pRbC/cDRApSXwbgfLVtREkHlNG2wLs=
+
+Name: org/eclipse/php/composer/ui/handler/ConsoleResponseHandler.class
+SHA-256-Digest: 8tt6Clh3AQpOI2D8yGAu6zNBunmQ1CdIglN5qt0bn/k=
+
+Name: org/eclipse/php/composer/ui/editor/composer/SupportSection$2.cla
+ ss
+SHA-256-Digest: JPTdAIOSkr+upqxM7FNZXZe3bxdRPtHcJMCDmuPlydg=
+
+Name: org/eclipse/php/composer/ui/editor/composer/SupportSection$12.cl
+ ass
+SHA-256-Digest: Av7XzF50QOoIQoTsrMPi5YyRZcX5fb8sM8ZeM3lvugs=
+
+Name: org/eclipse/php/composer/ui/editor/composer/PsrSection$3.class
+SHA-256-Digest: yDLU46TyEJc/tzANi2+NGNzReJGm0SzBqMqoq4jM+KQ=
+
+Name: org/eclipse/php/composer/ui/wizard/project/template/PackageProje
+ ctWizardFirstPage$2.class
+SHA-256-Digest: tZBauPq1RctwRHgsEB3r+sGFvkKiYKbuLKGMAiqpMss=
+
+Name: org/eclipse/php/composer/ui/editor/composer/SupportSection$10.cl
+ ass
+SHA-256-Digest: 9MbqHDV7c7yWrT/ndjK8aj2yd/TD2rz7I/0TRc8SAHg=
+
+Name: org/eclipse/php/composer/ui/wizard/project/template/PackageProje
+ ctWizardSecondPage.class
+SHA-256-Digest: 0vso1d7/ZJpb+nLa4bTgDBeGtb+5PZf94yhXt/2tPI8=
+
+Name: icons/full/obj16/script.png
+SHA-256-Digest: 6H3CeSr4vplkFHjd8rFpYCDsjcBu+P4x2Rc96yzD2Dg=
+
+Name: org/eclipse/php/composer/ui/parts/ComboFormEntry$2.class
+SHA-256-Digest: mJKFoeqZ1JDRycruVZkNYwa/HJokDo/kArS0QBdDfi8=
+
+Name: org/eclipse/php/composer/ui/parts/TreePart.class
+SHA-256-Digest: pmLmixdZ/dDW6QJAy/dn/7oklI9qYqtaNOoBtK9Uxx0=
+
+Name: org/eclipse/php/composer/ui/wizard/importer/WizardResourceImport
+ Page$2.class
+SHA-256-Digest: ZI4JQKLMshT+nQHK3ADXywz4mffnohq7H9HhwasqnbA=
+
+Name: org/eclipse/php/composer/ui/job/InstallDevJob.class
+SHA-256-Digest: x1m8U2XCMtsIQdRyHvVgI6Dk8it9TGKrIXB10Y60DIs=
+
+Name: org/eclipse/php/composer/ui/actions/UpdateDevAction.class
+SHA-256-Digest: gV0uWpeGzQWtjPAG6YDps48lwCoDY4L6zQGNq160b7Q=
+
+Name: org/eclipse/php/composer/ui/parts/composer/VersionSuggestion.cla
+ ss
+SHA-256-Digest: 2sloae8X3Mql7tT7v2Zc1WhRt73xFe5HB2fMoxkbbyQ=
+
+Name: org/eclipse/php/composer/ui/editor/composer/DependenciesPage$1.c
+ lass
+SHA-256-Digest: inA07pasXu54J4yK9jjIcTdv9Z0CbbCJxUzWXrDAe98=
+
+Name: org/eclipse/php/composer/ui/editor/composer/SupportSection$1.cla
+ ss
+SHA-256-Digest: ctiA5VaMZTi4t1ew/C8ds0pKZt866TLjt0fIYhXY4cU=
+
+Name: icons/full/obj16/update.psd
+SHA-256-Digest: Apk8zm1sWLAn4mrurU3KeSnZUOFQA5yL/6vqxvUVRxs=
+
+Name: org/eclipse/php/composer/ui/editor/composer/ConfigSection$6.clas
+ s
+SHA-256-Digest: Bx/X7+6cWNVznuurMOq/2qXpPZriBEspiSiiXMQV02E=
+
+Name: org/eclipse/php/composer/ui/wizard/project/template/PackagistIte
+ m$4.class
+SHA-256-Digest: 2s+ptlGGPFLjRHC+VakNEpXocA5ZWoSV4zPEqKFCEBo=
+
+Name: org/eclipse/php/composer/ui/job/InstallJob.class
+SHA-256-Digest: FKNQ3uyx0mh9sa2JZ8uW5j7hyerR+z+c0UgvgR0ZLto=
+
+Name: icons/full/obj16/package.gif
+SHA-256-Digest: Y8EiOf6Ku8b0/Zia6SRrssPkTHPbX/aS+yHyot5Ulk4=
+
+Name: org/eclipse/php/composer/ui/editor/composer/ConfigSection.class
+SHA-256-Digest: KSj8HRiZkCbmrD7M1iNtboIOr70DIwQJyFQp4wpzoNY=
+
+Name: org/eclipse/php/composer/ui/preferences/ComposerLauncherBag.clas
+ s
+SHA-256-Digest: Rr463mgI6NQrzacxW0AViFsyRcEdZdzAnTXYvWza8rg=
+
+Name: org/eclipse/php/composer/ui/parts/composer/VersionSuggestion$1.c
+ lass
+SHA-256-Digest: 4/KnG/B6km96fF+1XgK9PgnkJNEFFXu867d1lz2rYng=
+
+Name: org/eclipse/php/composer/ui/wizard/AbstractValidator.class
+SHA-256-Digest: b8iQnhTV86iMH4qRbrB/1hgx9sQfzLGTcfcPpAqthcs=
+
+Name: org/eclipse/php/composer/ui/editor/composer/ComposerFormEditor$4
+ .class
+SHA-256-Digest: CqMKrhuxOV09M6Gvovys+HEsHVIkGNDFFTf0lvJKhyI=
+
+Name: org/eclipse/php/composer/ui/editor/composer/PsrSection$PathDropA
+ dapter.class
+SHA-256-Digest: NnGpPn+e3DdXClAZ7yvLQN2qDy6dEJ4YH8r/9FpZy5A=
+
+Name: about.html
+SHA-256-Digest: EM73VJE9n08qTYW9xq1BffRK7VXGzss5p0gzwWziWMs=
+
+Name: org/eclipse/php/composer/ui/editor/composer/Psr4Section.class
+SHA-256-Digest: ZMJwKKFMyCuKHqAh0o1dmzOR84pkAQLPu0SgbZO+GAQ=
+
+Name: org/eclipse/php/composer/ui/wizard/ValidationException$Severity.
+ class
+SHA-256-Digest: 3fSGCeg/b/SuEwst7KCo5UIlVfSdRif8Bz0N5Fy0D/8=
+
+Name: org/eclipse/php/composer/ui/editor/composer/Psr0Section.class
+SHA-256-Digest: 92+uL0bYXY9CHTBEUWHNjTdw/rZ5C3+kPlC6VAejBGc=
+
+Name: org/eclipse/php/composer/ui/editor/composer/GeneralSection.class
+SHA-256-Digest: CZ6WMPL0iFXpmBu20d1gqjFp6v1TkA6MPH94rY8iUyU=
+
+Name: org/eclipse/php/composer/ui/editor/composer/ComposerFormEditor$3
+ .class
+SHA-256-Digest: lzv6LZAX0rADP88a/dsMEXt02OyboHgqc93F1DTkOis=
+
+Name: org/eclipse/php/composer/ui/dialogs/ScriptDialog$1.class
+SHA-256-Digest: TY+3GRQV2aoZr7CGDdXk6+kbLZ3m4m2TKTDFV6kSxfc=
+
+Name: org/eclipse/php/composer/ui/parts/ComboPart.class
+SHA-256-Digest: utFcRj/e6TIRe62coK7nV76e1qXFW+OCP7qlDNBiqrM=
+
+Name: org/eclipse/php/composer/ui/wizard/AbstractWizardSecondPage$1.cl
+ ass
+SHA-256-Digest: jpeDxSRvsAiRRwJtQaX2lSUvJzIzTf5vDOce4FhX7Dk=
+
+Name: org/eclipse/php/composer/ui/wizard/importer/WizardResourceImport
+ Page$1.class
+SHA-256-Digest: a7JOXhGMFK6Jbf2hfUkVJLaKDhoCuL7tOAJldjGaO/c=
+
+Name: org/eclipse/php/composer/ui/wizard/project/template/PackagistIte
+ m$3.class
+SHA-256-Digest: nBAdH8LmfI60RqnVaDIQrKiTijZm9gU01BmL0t8scSY=
+
+Name: org/eclipse/php/composer/ui/job/CreateProjectJob$JobListener.cla
+ ss
+SHA-256-Digest: NHT8NTDERTdQFxSeSMkBy2/2yPhWLiYRsvPrHJSZoNQ=
+
+Name: icons/full/wizban/packrefact_wiz.gif
+SHA-256-Digest: 5COulRAyhzi6EtF2mbHxNqJL+eYqwoT5asVknqx7B8w=
+
+Name: org/eclipse/php/composer/ui/editor/composer/RepositoriesSection.
+ class
+SHA-256-Digest: T+Tf+b+UF+/uM7ePz5rsL204RoP0v6uV6kzyM17eIsU=
+
+Name: org/eclipse/php/composer/ui/editor/composer/SupportSection$11.cl
+ ass
+SHA-256-Digest: B3hxft7SogOkENmc28r5qMjG/SYYAiMJuyvCLKdO3wY=
+
+Name: org/eclipse/php/composer/ui/parts/composer/VersionSuggestion$2.c
+ lass
+SHA-256-Digest: 2NocRG6z6OdMr5gHTdOYOuMnUymVmzhHkbqWp2T4BYs=
+
+Name: org/eclipse/php/composer/ui/controller/DependencyController.clas
+ s
+SHA-256-Digest: BzYASZeVScdondHNU2GRfDI7iEYXuON3axOvg9FUPE0=
+
+Name: org/eclipse/php/composer/ui/parts/IBooleanFormEntryListener.clas
+ s
+SHA-256-Digest: rBnJsItrs+IvcdT7i2l0Rsj6WahThQSLYFlNIcZjDHk=
+
+Name: org/eclipse/php/composer/ui/dialogs/ComposerJobFailureDialog$1.c
+ lass
+SHA-256-Digest: lGcLKpZZJxchu6L+DFHJ6oxw0JVMvqR1WlMYuOBWz4Q=
+
+Name: org/eclipse/php/composer/ui/ComposerUIPlugin.class
+SHA-256-Digest: zztNW+WunW7q13D8mqoJ9LhpI+ldzMrzk8kSbyNIib0=
+
+Name: org/eclipse/php/composer/ui/parts/TablePart.class
+SHA-256-Digest: xA9d00kmDvv8uzMvkn0Ngl2MFs6l63qbgtGxd0afnGo=
+
+Name: org/eclipse/php/composer/ui/wizard/project/template/PackageFilte
+ rViewer$PackagistContentProvider.class
+SHA-256-Digest: NxVuA3VNveYC6e0KmQuEVya8AeKXaDKSZKL+E7V4kCo=
+
+Name: icons/full/wizban/newsrcfldr_wiz.gif
+SHA-256-Digest: O/ljIk4IWxTP5tAwEdZGMShHp9XP4uPl3xwjpr+C1DQ=
+
+Name: org/eclipse/php/composer/ui/editor/composer/ConfigSection$5.clas
+ s
+SHA-256-Digest: Q560Myl/igvDXB9WiYze/1MK14bVkV4PgkW5IZselnk=
+
+Name: org/eclipse/php/composer/ui/parts/TreePart$2.class
+SHA-256-Digest: MXqOkDA4ocT+T+I8jHFbTQN+EQJvjqOcMHIKlo/0OeQ=
+
+Name: icons/full/obj16/page.gif
+SHA-256-Digest: qxgvAL/6yib0vzIQDzBMGkLNkrTVYdmMIvyTP/cwdi0=
+
+Name: org/eclipse/php/composer/ui/editor/composer/OverviewPage.class
+SHA-256-Digest: 0EUxOWkehWb04/6jdsQmOpdpb7SLskKAGqCHHPfxYlk=
+
+Name: org/eclipse/php/composer/ui/editor/TreeSection$PartAdapter$1.cla
+ ss
+SHA-256-Digest: XD3khUq1N/hOq7cREN/8sCI27h+vJQ7mqD30VmPUOcg=
+
+Name: org/eclipse/php/composer/ui/editor/composer/LicenseContentAdapte
+ r.class
+SHA-256-Digest: Bx0KGfMxWPjL+zkK0F5YPWPit7BmJeUMWcnfjyFZRNc=
+
