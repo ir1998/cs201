@@ -1,0 +1,66 @@
+package movieMedia;
+
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.Scanner;
+
+public class userIO {
+	static Map<String, User> users;
+	ArrayList<Movie> movies;
+	ArrayList<String> actions;
+	ArrayList<String> genres;
+
+	public static void main(String[] args) {
+		xmlParser fileInfo = new xmlParser(args[1]);
+
+		Scanner scan = new Scanner(System.in);
+		boolean loginState = true;
+		int menuState = 0;
+
+		while (loginState) {
+			while (menuState == 1) {
+				System.out.println("1. Login");
+				System.out.println("2. Exit");
+
+				String temp = scan.nextLine();
+				if (temp == "1") {
+					System.out.println("Please enter your username");
+					for (int j = 3; j > 0; j--) {
+						String username = scan.nextLine();
+						if (fileInfo.users.containsKey(username)) {
+							j = 0;
+							for (int i = 3; i > 0; i--) {
+								if (fileInfo.users.get(username).getPassword() == scan.nextLine()) {
+									i = 0;
+									menuState = 1;
+								} else {
+									if (i == 3) {
+										System.out.println("Incorrect password. " + "You have 2 more chances to "
+												+ "enter the correct password.");
+									} else if (i == 2) {
+										System.out.println("Incorrect password. " + "You have 1 more chance to "
+												+ "enter the correct password.");
+									}
+								}
+
+							}
+						} else if (j == 3) {
+							System.out.println(
+									"Invalid username. You have 2 " + "more chances to enter a valid username.");
+						} else if (j == 2) {
+							System.out.println(
+									"Invalid username. You have 1 " + "more chance to enter a valid username.");
+						}
+					}
+				} else if (temp == "2") {
+					System.exit(0);
+				} else {
+					System.out.println("You have entered an invalid command, please try again.");
+				}
+			}
+			while (menuState == 1) {
+
+			}
+		}
+	}
+}

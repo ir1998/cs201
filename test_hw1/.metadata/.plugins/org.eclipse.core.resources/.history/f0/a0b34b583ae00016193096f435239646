@@ -1,0 +1,130 @@
+package movieMedia;
+import org.w3c.dom.*;
+import org.xml.sax.SAXException;
+
+import javax.xml.parsers.*;
+import java.io.*;
+import java.util.ArrayList;
+
+public class xmlParser {
+	public static void main (String[] args){
+		ArrayList<String> genres = new ArrayList<String>();
+		ArrayList<String> actions = new ArrayList<String>();
+		ArrayList<Movie> movies = new ArrayList<Movie>();
+		ArrayList<String> writers = new ArrayList<String>();
+		ArrayList<User> users = new ArrayList<User>();
+		
+		try{
+			File inFile = new File(args[0]);
+			
+			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+	        DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+	        Document doc = dBuilder.parse(inFile);
+	        doc.getDocumentElement().normalize();
+	        
+	        NodeList genreList = doc.getElementsByTagName("genres");
+	        if(genreList.item(0).getNodeType() == Node.ELEMENT_NODE){
+		        for(int i=0; i < genreList.getLength(); i++){
+		        	Node nNode = genreList.item(i);
+		        	if(nNode.getNodeType() == Node.ELEMENT_NODE){
+		        		Element eElement = (Element) nNode;
+		        		NodeList allGenres = eElement.getElementsByTagName("genre");
+		        		for(int j=0; j<allGenres.getLength(); j++){
+		        			Node mNode = allGenres.item(j);
+		        			if(mNode.getNodeType() == mNode.ELEMENT_NODE){
+		        				Element genre = (Element) mNode;
+		        				System.out.println("genre is " + genre.getTextContent());
+		        				genres.add(genre.getTextContent());
+		        			}
+		        		}
+		        	}
+		        }
+	        }
+	        
+	        NodeList actionList = doc.getElementsByTagName("actions");
+	        if(actionList.item(0).getNodeType() == Node.ELEMENT_NODE){
+		        for(int i=0; i < actionList.getLength(); i++){
+		        	Node currentAction = actionList.item(i);
+		        	if(currentAction.getNodeType() == Node.ELEMENT_NODE){
+		        		Element eElement = (Element)currentAction;
+		        		NodeList allActions = eElement.getElementsByTagName("action");
+		        		for(int j=0; j<allActions.getLength(); j++){
+		        			Node mNode = allActions.item(j);
+		        			if(mNode.getNodeType() == mNode.ELEMENT_NODE){
+		        				Element action = (Element) mNode;
+					        	System.out.println("action is " + action.getTextContent());
+					        	actions.add(action.getTextContent());
+		        			}
+		        		}
+
+		        	}
+		        }
+	        }
+	        
+	        
+	        String title;
+	        String director;
+	        String year;
+	        
+	        NodeList movieList = doc.getElementsByTagName("movies");
+	        Node moviesNode = movieList.item(0);
+	        if(moviesNode.getNodeType() == Node.ELEMENT_NODE){
+		        NodeList allMovies = ((Element) moviesNode).getElementsByTagName("movie");
+		        for(int i=0; i < allMovies.getLength(); i++){
+		        	Movie movieObject = new Movie();
+		        	Node currentNode = allMovies.item(i);
+		        	if(currentNode.getNodeType() == Node.ELEMENT_NODE){
+		        		Element movieElement = (Element) currentNode;
+		        		
+		        		NodeList titleList = movieElement.getElementsByTagName("title");
+	        			System.out.println("title is " + titleList.item(0).getTextContent());
+	        			movieObject.setTitle(titleList.item(0).getTextContent());
+		        		
+		        		NodeList directorList = movieElement.getElementsByTagName("director");
+		        		System.out.println("director is " + directorList.item(0).getTextContent());
+		        		movieObject.setDirector(directorList.item(0).getTextContent());
+		        		
+		        		NodeList actorList = movieElement.getElementsByTagName("writers");
+		        		for(int j=0; j<actorList.getLength(); j++){
+		        			Node actorNode = actorList.item(j);
+		        			if(actorNode.getNodeType() == Node.ELEMENT_NODE){
+		        				Element writer = (Element) actorNode;
+		        				System.out.println("writer is " + writer.getTextContent());
+		        				movieObject.addWriter(writer.getTextContent());
+		        			}
+		        		}
+		        		
+		        		NodeList yearList = movieElement.getElementsByTagName("year");
+		        		System.out.println("year is "+ yearList.item(0).getTextContent());
+		        		year = yearList.item(0).getTextContent();
+		        		
+		        		NodeList
+		        		//if(movieElement.getElementsByTagName("director")){
+		        			//String bDirector = movieElement.getNodeValue();
+		        		//}
+		        		//String title = movieElement.getElementsByTagName("title");
+		        		//String director = movieElement.getElementsByTagName("director");
+		        		
+		        				
+		        		//Movie newMovie = new Movie();
+		        	}
+		        	//System.out.println("\nCurrent Element" + currentMovie.getNodeName());
+		        	//movies.add(currentMovie.getNodeName());
+		        }
+	        }
+
+		} catch (ParserConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SAXException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		finally{
+			
+		}
+	}
+}
