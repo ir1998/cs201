@@ -1,0 +1,58 @@
+package movieMedia;
+
+import java.util.ArrayList;
+
+public class Movie {
+	String title;
+	String director;
+	ArrayList<String> writers = new ArrayList<String>();
+	int year;
+	String genre;
+	String description;
+	double rating;
+	ArrayList<String> actors = new ArrayList<String>();
+	
+	//constructor without rating
+	public Movie(String sTitle, String sDirector, ArrayList<String> sWriters, int sYear,
+			String sGenre, String sDescription, ArrayList<String> sActors){
+		title = sTitle;
+		director = sDirector;
+		writers = sWriters;
+		year = sYear;
+		genre = sGenre;
+		description = sDescription;
+		actors = sActors;
+	}
+	//constructor with rating
+	public Movie(String sTitle, String sDirector, ArrayList<String> sWriters, int sYear,
+			String sGenre, String sDescription, double sRating, ArrayList<String> sActors){
+		title = sTitle;
+		director = sDirector;
+		writers = sWriters;
+		year = sYear;
+		genre = sGenre;
+		description = sDescription;
+		rating = sRating;
+		actors = sActors;
+	}
+	
+	void setTitle(String newTitle){
+		title = newTitle;
+	}
+	void setDirector(String newDirector){
+		director = newDirector;
+	}
+	void addWriter (String newWriter){
+		writers.add(newWriter);
+	}
+	void setYear(int newYear){
+		year = newYear;
+	}
+	void setGenre(String newGenre){
+		genre =
+	}
+	void setRating(double newRating){
+		rating = newRating;
+	}
+	
+}
