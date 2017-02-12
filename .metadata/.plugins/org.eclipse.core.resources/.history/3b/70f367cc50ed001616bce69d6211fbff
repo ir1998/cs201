@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Factory Setup</title>
+</head>
+<body>
+<h1>Hello Manager, please enter your information</h1>
+<td><input type="text" name="name"/>Name</td>
+<td><input type="color" name="color"/>Interface Color</td>
+</body>
+</html>

@@ -1,5 +1,0 @@
-package movieMedia;
-
-public class actions {
-	String actionName;
-}

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/Users/Nick/Desktop/cs201/Assignment1"/>
+	</list>
 	<section name="ExternalProjectImportWizard">
 		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
 		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
@@ -8,6 +11,10 @@
 			<item value=""/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="/Users/Nick/Downloads/Lab4_expansion-solution.zip"/>
+			<item value="/Users/Nick/Desktop/cs201/hw_kaimakis/test_hw1/kaimakis_CS201_assignment1.zip"/>
+			<item value="/Users/Nick/Downloads/Lab3-solution.zip"/>
+			<item value="/Users/Nick/Downloads/Lab2-solution.zip"/>
 			<item value="/Users/Nick/Downloads/CSCI201Factory-base.zip"/>
 		</list>
 	</section>

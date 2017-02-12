@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>sort ye numbers here</title>
+<script>
+	function sort(){
+		var arr = new Array();
+		arr[0] = Number(document.numberform.number1.value);
+		arr[1] = Number(document.numberform.number2.value);
+		arr[2] = Number(document.numberform.number3.value);
+		arr[3] = Number(document.numberform.number4.value);
+		arr[4] = Number(document.numberform.number5.value);
+		
+		for(var i=0; i<arr.length; i++){
+			for(var j=i+1; j<arr.length; j++){
+				if(arr[i] >arr[j]){
+					var temp = arr[i];
+					arr[i] = arr[j];
+					arr[j] = temp;
+				}
+			}
+		}
+		var sortedArray = "";
+		for (var i =0; i<arr.length; i++){
+			sortedArray += arr[i];
+			if(i<arr.length - 1){
+				sortedArray += ", ";
+			}
+		}
+		document.getElementById("sortednumbers").innerHTML = "<strong>" + sortedArray + "</strong>";
+		return false;
+	}
+</script>
+</head>
+<body>
+	<h1>Sorted Numbers Form</h1>
+	<form name="numberform" method="GET" action="submit.jsp" onsubmit="return sort();">
+		Number 1 <input type="text" name="number1" /><br/>
+		Number 2 <input type="text" name="number2" /><br/>
+		Number 3 <input type="text" name="number3" /><br/>
+		Number 4 <input type="text" name="number4" /><br/>
+		Number 5 <input type="text" name="number5" /><br/>
+		<input type="submit" name="submit" value="Sort My Numbers" />
+	</form>
+	<div id="sortednumbers">hola mundo</div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="main.css">
+<meta charset="UTF-8">
+<title>Cinemate</title>
+</head>
+<body>
+<h1 id="Title1" >Welcome to Cinemate, a movie social media medium</h1>
+<h1 id = "Title2">Please input a file so that you may begin</h1>
+<form id="form1" method="GET" action="SaveFile.jsp">
+	File Path: <input type="text" name="file"><br>
+	<button type="submit" form="form1" value="Submit">Submit</button>
+</form>
+
+
+</body>
+</html>

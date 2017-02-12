@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Sample Form</title>
+	<script>
+		function loadDoc() {
+			var xhttp = new XMLHttpRequest();
+			xhttp.onreadystatechange = function() {
+				document.getElementById("demo").innerHTML = this.responseText;
+			};
+			xhttp.open("GET", "csci201.txt", true);
+			xhttp.send();
+		}
+	</script>
+</head>
+<body>
+	<div id="demo">
+		<h1>The Magic of AJAX</h1>
+		<button type="button" onclick="loadDoc()">Click To Be Amazed</button>
+	</div>
+</body>

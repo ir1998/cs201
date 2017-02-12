@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sample Form</title>
+	<script>
+		function loadDoc() {
+			var xhttp = new XMLHttpRequest();
+			xhttp.onreadystatechange = function() {
+				document.getElementById("demo").innerHTML = this.responseText;
+			};
+			xhttp.open("GET", "csci201.txt", true);
+			xhttp.send();
+		}
+	</script>
+</head>
+<body>
+	<div id="demo">
+		<h1>the Magic of AJAX</h1>
+		<button type="button" onclick="loadDoc()"> Click to be Amazed
+	<form name="myform" method="GET" action="form.jsp" onsubmit="return validate();">
+		<div id="formerror"></div>
+		First Name <input type="text" name="fname" /><br />
+		Last Name <input type="text" name="lname" /><br />
+		<input type="submit" name="submit" value="Submit" />
+	</form>
+</body>

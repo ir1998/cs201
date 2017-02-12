@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="main.css">
+<meta charset="UTF-8">
+</head>
+<body bgcolor="#E6E6FA">
+<h1 id="Title1" >Cinemate</h1>
+<h2 id="Title2" >Welcome to Cinemate, a movie social media medium</h2>
+<h2 id = "Title3">Please input a file so that you may begin</h2>
+<form id="form1" method="GET" action="SaveFile.jsp">
+	<h2 id="Title4">File Path: <input type="text" name="file"></h2>
+	<div id="Title4">
+		<button type="submit" form="form1" value="Submit">Submit</button>
+	</div>
+</form>
+<script type="text/javascript">
+function executeOnSubmit(){
+        var status = checkField();
+
+        if(status[0] == 0){
+                alert(status[1]);
+                return false;
+        }
+        var res = confirm("Submit the form contents?");
+        if(res)
+                return true;
+        else
+                return false;
+}
+function checkField(){
+        var check = new Array();
+        var elemValue = (String)session.getParameter("file");
+        if(elemValue == "") {
+                check[0] = 0;
+                check[1] = "Enter something!!!";
+        }
+        else if (elemValue = "1") {
+                check[0] = 0;
+                check[1] = "You entered 1!! How dare you?!!";
+        }
+        else {
+                check[0] = 1;
+        }
+        return check;
+}
+</script>
+
+
+</body>
+</html>

@@ -1,7 +1,0 @@
-package movieMedia;
-
-public class Event {
-	String action;
-	String movie;
-	double rating;
-}
