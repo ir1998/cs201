@@ -1,0 +1,11 @@
+package data;
+
+import java.io.Serializable;
+
+public class PotentialGameName implements Serializable {
+	public String name;
+	
+	public PotentialGameName(String name){
+		this.name = name;
+	}
+}

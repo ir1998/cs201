@@ -1,0 +1,9 @@
+package messages;
+
+public class GameToJoin implements Serializable{
+	public game;
+	
+	public GameToJoin(Game g){
+		this.game = g;
+	}
+}

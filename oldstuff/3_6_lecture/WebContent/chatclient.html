@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Chat client</title>
+	<script>
+		var socket;
+		function connectToServer(){
+			socket = new WebSocket("ws://localhost:8080/3_6_lecture/ws1");
+			socket.onopen = function(event){
+				alert("open");
+				document.getElementById("mychat").innerHTML += "Connecting...";
+			}
+			socket.onmessage = function(event){
+				document.getElementById("mychat").innerHTML += event.data + "<br/>";
+			}
+			socket.onclose = function(event){
+				document.getElementById("mychat").innerHTML += "Disconnecting...";
+			}
+		}
+		function sendMessage(){
+			socket.send("Nick: " + document.chatform.message.value);
+			return false;
+		}
+	</script>
+</head>
+<body onload="connectToServer();">
+	<form name="chatform" onsubmit="return sendMessage();">
+		<input type="text" name="message" value="Type here!"/><br/>
+		<input type="submit" name="submit" value="Send Message"/><br/>
+		
+	</form>
+	<div id="mychat"></div>
+
+</body>
+</html>

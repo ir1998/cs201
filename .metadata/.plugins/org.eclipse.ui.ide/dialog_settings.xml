@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/Users/Nick/Downloads/CSCI201Factory_Lab9"/>
+		<item value="/Users/Nick/Downloads/Lab10-solution.zip"/>
+		<item value="/Users/Nick/Downloads/kaimakis_assignment3.zip"/>
+		<item value="/Users/Nick/Desktop/hw_kaimakis/Assignment3ACTUAL/kaimakis_assignment3.zip"/>
+		<item value="/Users/Nick/Downloads/Lab9.zip"/>
+		<item value="/Users/Nick/Desktop/cs201/Assignment3"/>
+		<item value="/Users/Nick/Desktop/hw_kaimakis/Assignment3/kaimakis_assignment3.zip"/>
+		<item value="/Users/Nick/Downloads/Assignment2Solution.zip"/>
+		<item value="/Users/Nick/Desktop/hw_kaimakis/Assignment2Solution.zip"/>
 		<item value="/Users/Nick/Desktop/cs201/Assignment1"/>
 	</list>
 	<section name="ExternalProjectImportWizard">
 		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
 		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
-		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/Nick/Desktop/cs201/kaimakis_assignment3.zip_expanded/Assignment2"/>
 			<item value=""/>
+			<item value="/Users/Nick/Desktop/CSCI201Factory_practicemidterm_20171"/>
+			<item value="/Users/Nick/Desktop/CSCI201Factory_Lab2"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+			<item value="/Users/Nick/Downloads/Lab2-solution (2).zip"/>
+			<item value="/Users/Nick/Downloads/Lab2-solution (1).zip"/>
+			<item value="/Users/Nick/Downloads/Lab6_expansion-solution.zip"/>
+			<item value="/Users/Nick/Downloads/Lab7-solution.zip"/>
+			<item value="/Users/Nick/Downloads/CSCI201Factory_Lab2.zip"/>
+			<item value="/Users/Nick/Downloads/Lab5-solution (1).zip"/>
 			<item value="/Users/Nick/Downloads/Lab4_expansion-solution.zip"/>
 			<item value="/Users/Nick/Desktop/cs201/hw_kaimakis/test_hw1/kaimakis_CS201_assignment1.zip"/>
 			<item value="/Users/Nick/Downloads/Lab3-solution.zip"/>
@@ -18,12 +37,34 @@
 			<item value="/Users/Nick/Downloads/CSCI201Factory-base.zip"/>
 		</list>
 	</section>
-	<section name="NewWizardAction">
-		<item value="org.eclipse.ui.wizards.new.project" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.ui.Basic"/>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
 		</list>
 	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="344" key="DIALOG_X_ORIGIN"/>
+		<item value="130" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="BasicNewProjectResourceWizard">
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item value="false" key="FilterByLocation"/>
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode/&gt;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
+		<item value="false" key="ShowDerived"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="340" key="DIALOG_X_ORIGIN"/>
+			<item value="67" key="DIALOG_Y_ORIGIN"/>
+		</section>
 	</section>
 </section>

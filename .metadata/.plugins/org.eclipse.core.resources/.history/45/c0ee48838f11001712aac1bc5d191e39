@@ -1,0 +1,15 @@
+
+public class DoubleNumber {
+	public int numToDouble;
+	public String name;
+	
+	public DoubleNumber(String name, int num){
+		this.numToDouble = num;
+		this.name = name;
+		System.out.println("Class created!");
+	}
+	
+	public static void main(String[] args){
+		System.out.println("hello world");
+	}
+}

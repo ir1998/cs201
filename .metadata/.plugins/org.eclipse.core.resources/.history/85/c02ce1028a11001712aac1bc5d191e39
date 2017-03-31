@@ -1,0 +1,14 @@
+
+public class GetName {
+	public int id;
+	public String name;
+	
+	public GetName(int id, String name){
+		
+	}
+	
+	public static void main(String[] args){
+		System.out.println("hello");
+	}
+}
+

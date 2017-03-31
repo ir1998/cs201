@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;3_6_lecture/WebContent/ChatServer.html&apos; to &apos;chatform.html&apos;" description="Rename resource &apos;ChatServer.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/ChatServer.html" name="chatform.html" stamp="1488819946725" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;3_6_lecture/WebContent/chatform.html&apos; to &apos;chatclient.html&apos;" description="Rename resource &apos;chatform.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/chatform.html" name="chatclient.html" stamp="1488821745230" updateReferences="true"/>
+</session>

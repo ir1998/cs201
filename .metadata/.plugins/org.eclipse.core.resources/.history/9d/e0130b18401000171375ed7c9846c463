@@ -1,0 +1,17 @@
+package data;
+
+import java.io.Serializable;
+
+public class JoinGame implements Serializable {
+	
+	private static final long serialVersionUID = 1L;
+	public String name;
+	
+	public JoinGame(String name){
+		this.name = name;
+	}
+	public String getName(){
+		return this.name;
+	}
+	
+}

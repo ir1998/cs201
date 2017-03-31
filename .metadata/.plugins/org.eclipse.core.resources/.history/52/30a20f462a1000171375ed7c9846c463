@@ -1,0 +1,9 @@
+package data;
+
+public class PotentialGameName {
+	public String name;
+	
+	public PotentialGameName(String name){
+		this.name = name;
+	}
+}

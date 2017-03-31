@@ -1,0 +1,13 @@
+package messages;
+
+import java.io.Serializable;
+
+public class joinGameMessage implements Serializable {
+	public String message;
+	public boolean full;
+	
+	public joinGameMessage(String message, boolean full){
+		this.message = message;
+		this.full = full;
+	}
+}

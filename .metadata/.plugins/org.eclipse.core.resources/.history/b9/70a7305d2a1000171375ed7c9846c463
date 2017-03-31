@@ -1,0 +1,9 @@
+package data;
+
+public class PotentialUsername {
+	public String username;
+	
+	public PotentialUsername(String username){
+		this.username = username;
+	}
+}

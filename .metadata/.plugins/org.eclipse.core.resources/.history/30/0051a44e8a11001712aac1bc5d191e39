@@ -1,0 +1,20 @@
+
+public class GetName {
+	public int id;
+	public String name;
+	
+	public GetName(int number, String name){
+		this.id = number;
+		this.name = name;
+		
+		
+		System.out.println("Class created!");
+	}
+	
+	public static void main(String[] args){
+		System.out.println("hello");
+		GetName gn = new GetName(1, "bob");
+		double dub = 1.0;
+	}
+}
+

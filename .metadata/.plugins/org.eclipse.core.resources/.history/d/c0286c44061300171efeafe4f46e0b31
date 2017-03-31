@@ -1,0 +1,29 @@
+import java.util.concurrent.Executors;
+
+public class Money extends Thread{
+	private static PiggyBank piggy = new PiggyBank();
+	public void run(){
+		piggy.deposit();
+	}
+	
+	public static void main(String [] args){
+		ExecuterService es = Executors.newCachedThreadPool();
+		for(int i = 0; i<100; i++){
+			AddAPenner aap = new AddAPenny();
+			es.execute(aap);
+		}
+		es.shutdown();
+		while(!es.isTerminated()){
+			Thread.yield();
+		}
+	}
+	
+}
+
+
+public class PiggyBank {
+	private int balance;
+	public int getBalance();{
+		
+	}
+}

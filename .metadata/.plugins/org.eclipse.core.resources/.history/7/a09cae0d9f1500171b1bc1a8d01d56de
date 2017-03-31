@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Invest CS</title>
+</head>
+		<script>
+			function validate()
+			{
+				var xhttp = new XMLHttpRequest();
+				xhttp.open("GET", "${pageContext.request.contextPath}/SignupServlet?fullname=" + document.getElementById("fullname").value + 
+						"&username=" + document.getElementById("username").value +"&password="+document.getElementById("password").value
+						+"&imgurl="+document.getElementById("imgurl").value, false);
+				xhttp.send();
+				if (xhttp.responseText.trim().length > 0) {
+					document.getElementById("formerror").innerHTML = xhttp.responseText;
+					return false;
+				}
+				return true;
+			};
+		</script>
+<body>
+	<h1>Create your new account!</h1>
+
+	<form class="Signup" action="submit">
+    <div>First Name</div>
+		<input type="text" id="firstname" name="firstname"/>
+    <br>
+    <div>Last Name</div>
+    <input type="text" id="lastname" name="lastname"/>
+    <div>Email</div>
+		<input type="text" id="email" name="email"/>
+    <br>
+    <div>Username</div>
+		<input type="text" id="username" name="username"/>
+    <br>
+    <div>Password</div>
+    <input type="text" id="password" name="password"/>
+  </form>
+  <br>
+	<button type= "button" id="createAccount"> Create New Account </button>
+
+</body>
+</html>

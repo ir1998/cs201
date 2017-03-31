@@ -1,0 +1,13 @@
+package data;
+
+import java.io.Serializable;
+
+public class JoinGame implements Serializable {
+	public Client c;
+	
+	public JoinGame(Client c, String game){
+		this.c = c;
+		this.game = game;
+	}
+	
+}

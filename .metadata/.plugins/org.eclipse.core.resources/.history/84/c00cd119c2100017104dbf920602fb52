@@ -1,0 +1,13 @@
+package data;
+
+import networking.Client;
+
+public class Entry {
+	public Client player;
+	public String entry;
+	
+	public Entry(Client player){
+		this.player = player;
+		this.entry = player.lastGuess;
+	}
+}

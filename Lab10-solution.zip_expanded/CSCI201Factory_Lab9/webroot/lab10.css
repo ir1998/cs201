@@ -1,0 +1,33 @@
+body {
+	padding: 30px;
+	margin: auto;
+	width: 60%;
+	background-color: #123456;
+	color: white;
+}
+
+h1, h3 {
+	text-align: center;
+}
+
+p {
+	color: #DDE;
+	font-size: 16pt;
+}
+
+a {
+	color: #BBF;
+}
+
+#always-cite-your-sources {
+	background-color: #234567;
+	text-align: center;
+	padding: 30px;
+}
+
+img {
+	padding: 30px;
+	display: block;
+    margin: auto;
+	width: 100px;
+}

@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSCI 201 Lab 10</title>
+	<link rel = "stylesheet" href = "lab10.css">
+</head>
+<body>
+
+	<h1>Congratulations!</h1>
+	<h3>You finished lab 10!</h3>
+
+	<p>You have now experienced the arduous task of writing your own web server. It is not robust by any means but hey, you actually processed and served files to the browser! Hopefully now you can appreciate application servers like Tomcat which, among many other things, "provides a 'pure Java' HTTP web server environment in which Java code can run". See <a href = "http://stackoverflow.com/questions/30632/difference-between-the-apache-http-server-and-apache-tomcat">here</a> for a quick explanation on what else Tomcat does for us.</p>
+
+	<div id = "always-cite-your-sources">
+		This lab was made possible by: 
+		<br>
+		<br>
+		<a href = "http://kcd.sytes.net/articles/simple_web_server.php">"A Simple Java Based HTTP Server"</a>
+		<br>
+		Written by Charles Dobson, May 2009
+		<br>
+		Published on kcd.sytes.net
+		<br>
+		Article accessed 24-Mar-2017
+	</div>
+
+	<img src = "usc_seal.png">
+
+</body>
+</html>

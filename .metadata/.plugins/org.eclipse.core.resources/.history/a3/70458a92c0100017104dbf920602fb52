@@ -1,0 +1,13 @@
+package messages;
+
+import java.io.Serializable;
+
+import data.Game;
+
+public class GameToJoin implements Serializable{
+	public Game game;
+	
+	public GameToJoin(Game g){
+		this.game = g;
+	}
+}

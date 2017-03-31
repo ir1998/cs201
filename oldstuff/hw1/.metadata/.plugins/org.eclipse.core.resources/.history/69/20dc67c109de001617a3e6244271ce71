@@ -1,0 +1,55 @@
+package movieMedia;
+import org.w3c.dom.*;
+import javax.xml.parsers.*;
+import java.io.*;
+import java.util.ArrayList;
+
+public class xmlParser {
+	public static void main (String[] args){
+		ArrayList<String> genres = new ArrayList<String>();
+		ArrayList<String> actions = new ArrayList<String>();
+		ArrayList<Movie> movies = new ArrayList<Movie>();
+		ArrayList<User> users = new ArrayList<User>();
+		
+		try{
+			File inFile = new File(args[0]);
+			
+			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+	        DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+	        Document doc = dBuilder.parse(inFile);
+	        doc.getDocumentElement().normalize();
+	        
+	        NodeList genreList = doc.getElementsByTagName("genres");
+	        if(genreList.item(0).getNodeType() == Node.ELEMENT_NODE){
+		        NodeList allGenres = ((Element) genreList).getElementsByTagName("genre");
+		        for(int i=0; i < allGenres.getLength(); i++){
+		        	Node currentGenre = allGenres.item(i);
+		        	System.out.println("\nCurrent Element" + currentGenre.getNodeName());
+		        	genres.add(currentGenre.getNodeName());
+		        }
+	        }
+	        
+	        NodeList actionList = doc.getElementsByTagName("actions");
+	        if(actionList.item(0).getNodeType() == Node.ELEMENT_NODE){
+		        NodeList allActions = ((Element) actionList).getElementsByTagName("action");
+		        for(int i=0; i < allActions.getLength(); i++){
+		        	Node currentAction = allActions.item(i);
+		        	System.out.println("\nCurrent Element" + currentAction.getNodeName());
+		        	actions.add(currentAction.getNodeName());
+		        }
+	        }
+	        
+	        NodeList movieList = doc.getElementsByTagName("movies");
+	        if(movieList.item(0).getNodeType() == Node.ELEMENT_NODE){
+		        NodeList allMovies = ((Element) movieList).getElementsByTagName("action");
+		        for(int i=0; i < allMovies.getLength(); i++){
+		        	Node currentMovie = allMovies.item(i);
+		        	System.out.println("\nCurrent Element" + currentMovie.getNodeName());
+		        	movies.add(currentMovie.getNodeName());
+		        }
+	        }
+
+			
+		}
+	}
+}

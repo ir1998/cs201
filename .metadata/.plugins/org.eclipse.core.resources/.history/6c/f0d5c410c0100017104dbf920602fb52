@@ -1,0 +1,16 @@
+package messages;
+
+import java.io.Serializable;
+
+import data.Client;
+
+public class JoinGame implements Serializable {
+	public Client c;
+	public String game;
+	
+	public JoinGame(Client c, String game){
+		this.c = c;
+		this.game = game;
+	}
+	
+}

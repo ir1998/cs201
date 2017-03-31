@@ -1,0 +1,9 @@
+package messages;
+
+import java.io.Serializable;
+
+public class PhraseRequest implements Serializable {
+	public PhraseRequest(){
+		
+	}
+}

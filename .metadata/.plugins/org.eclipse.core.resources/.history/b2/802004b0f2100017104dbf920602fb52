@@ -1,0 +1,13 @@
+package messages;
+
+import networking.Client;
+
+public class Entry {
+	public String player;
+	public String guess;
+	
+	public Entry(String guess, String player){
+		this.player = player;
+		this.guess = guess;
+	}
+}
