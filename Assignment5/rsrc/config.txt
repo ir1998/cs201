@@ -1,0 +1,4 @@
+ipaddress:localhost
+db:kaimakis_cinemate
+user:root
+password:root

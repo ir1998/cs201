@@ -1,0 +1,412 @@
+
+<!DOCTYPE html>
+<!-- Template by Quackit.com -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+<title>Haley Schusterman</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
+<link href="css/custom.css" rel="stylesheet">
+<!-- jQuery -->
+<script src="js/jquery-1.11.3.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.interactive_bg.js"></script>
+<script>
+	$(".footer-blurb").interactive_bg({
+		strength : 25, // Movement Strength when the cursor is moved. The higher, the faster it will reacts to your cursor. The default value is 25.
+		scale : 1.05, // The scale in which the background will be zoomed when hovering. Change this to 1 to stop scaling. The default value is 1.05.
+		animationSpeed : "100ms", // The time it takes for the scale to animate. This accepts CSS3 time function such as "100ms", "2.5s", etc. The default value is "100ms".
+		contain : true, // This option will prevent the scaled object/background from spilling out of its container. Keep this true for interactive background. Set it to false if you want to make an interactive object instead of a background. The default value is true.
+		wrapContent : true
+	// This option let you choose whether you want everything inside to reacts to your cursor, or just the background. Toggle it to true to have every elements inside reacts the same way. The default value is false
+	});
+	$(document).ready(function() {
+		$(".footer-blurb").interactive_bg(); // function call
+	});
+
+	// change background size on window resize
+	$(window).resize(function() {
+		$(".footer-blurb > .ibg-bg").css({
+			width : $(window).outerWidth(),
+			height : $(window).outerHeight()
+		})
+	});
+</script>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<!-- Logo and responsive toggle -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"> <span
+					class="glyphicon glyphicon-unchecked"></span> Welcome!
+				</a>
+			</div>
+			<!-- Navbar links -->
+			<div class="collapse navbar-collapse"
+				id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="about.html">About</a></li>
+					<li class="active"><a href="#">Travel</a></li>
+					<li><a href="passion.html">Passion</a></li>
+					<li><a target="_blank"
+						href="https://www.instagram.com/adventures_are_calling/">Instagram</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a target="_blank"
+						href="https://www.linkedin.com/in/haley-schusterman-083817118/">Contact</a></li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container -->
+	</nav>
+
+	<!-- Content -->
+	<div>
+		<!-- Heading -->
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="page-header">
+					Portfolio <small><a target="_blank"
+						href="https://www.instagram.com/adventures_are_calling/">@adventures_are_calling</a></small>
+				</h1>
+			</div>
+		</div>
+		<!-- /.row -->
+
+		<!-- Projects Row -->
+		<div class="row">
+			<div class="col-md-6 portfolio-item">
+				<blockquote class="instagram-media" data-instgrm-version="7"
+					style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15); margin: 1px; max-width: 658px; padding: 0; width: 99.375%; width: -webkit-calc(100% - 2px); width: calc(100% - 2px);">
+					<div style="padding: 8px;">
+						<div
+							style="background: #F8F8F8; line-height: 0; margin-top: 40px; padding: 36.48148148148148% 0; text-align: center; width: 100%;">
+							<div
+								style="background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display: block; height: 44px; margin: 0 auto -44px; position: relative; top: -22px; width: 44px;"></div>
+						</div>
+						<p
+							style="color: #c9c8cd; font-family: Arial, sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;">
+							<a href="https://www.instagram.com/p/BLm5ay7Bj1b/"
+								style="color: #c9c8cd; font-family: Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;"
+								target="_blank">A post shared by Haley Schusterman
+								(@adventures_are_calling)</a> on
+							<time
+								style="font-family: Arial, sans-serif; font-size: 14px; line-height: 17px;"
+								datetime="2016-10-16T02:54:27+00:00">Oct 15, 2016 at
+								7:54pm PDT</time>
+						</p>
+					</div>
+				</blockquote>
+				<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+				<h3>
+					<a href="#">What should be Iceland's national bird</a>
+				</h3>
+				<p>A puffin silently stalks its pray, calmly waiting for the
+					perfect moment to get the meal it has been waiting for.</p>
+			</div>
+			<div class="col-md-6 portfolio-item">
+
+				<blockquote class="instagram-media" data-instgrm-version="7"
+					style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15); margin: 1px; max-width: 658px; padding: 0; width: 99.375%; width: -webkit-calc(100% - 2px); width: calc(100% - 2px);">
+					<div style="padding: 8px;">
+						<div
+							style="background: #F8F8F8; line-height: 0; margin-top: 40px; padding: 33.24074074074074% 0; text-align: center; width: 100%;">
+							<div
+								style="background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display: block; height: 44px; margin: 0 auto -44px; position: relative; top: -22px; width: 44px;"></div>
+						</div>
+						<p
+							style="color: #c9c8cd; font-family: Arial, sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;">
+							<a href="https://www.instagram.com/p/BJwKz3chOQ_/"
+								style="color: #c9c8cd; font-family: Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;"
+								target="_blank">A post shared by Haley Schusterman
+								(@adventures_are_calling)</a> on
+							<time
+								style="font-family: Arial, sans-serif; font-size: 14px; line-height: 17px;"
+								datetime="2016-08-31T00:16:48+00:00">Aug 30, 2016 at
+								5:16pm PDT</time>
+						</p>
+					</div>
+				</blockquote>
+				<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+				<h3>
+					<a href="#">A house. Or church. Or building with a red roof.</a>
+				</h3>
+				<p>The Icelandic people appreciate their colored roofs as a way
+					to counteract its mere 1300 hours of sunlight per year.</p>
+			</div>
+		</div>
+		<!-- /.row -->
+
+		<!-- Projects Row -->
+		<div class="row">
+			<div class="col-md-6 portfolio-item">
+				<blockquote class="instagram-media" data-instgrm-version="7"
+					style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15); margin: 1px; max-width: 658px; padding: 0; width: 99.375%; width: -webkit-calc(100% - 2px); width: calc(100% - 2px);">
+					<div style="padding: 8px;">
+						<div
+							style="background: #F8F8F8; line-height: 0; margin-top: 40px; padding: 33.24074074074074% 0; text-align: center; width: 100%;">
+							<div
+								style="background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display: block; height: 44px; margin: 0 auto -44px; position: relative; top: -22px; width: 44px;"></div>
+						</div>
+						<p
+							style="color: #c9c8cd; font-family: Arial, sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;">
+							<a href="https://www.instagram.com/p/BJTzJ_MBooL/"
+								style="color: #c9c8cd; font-family: Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;"
+								target="_blank">A post shared by Haley Schusterman
+								(@adventures_are_calling)</a> on
+							<time
+								style="font-family: Arial, sans-serif; font-size: 14px; line-height: 17px;"
+								datetime="2016-08-19T23:51:22+00:00">Aug 19, 2016 at
+								4:51pm PDT</time>
+						</p>
+					</div>
+				</blockquote>
+				<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+				<h3>
+					<a href="#">A sheep</a>
+				</h3>
+				<p>Contrary to common belief, sheep enjoy the incredible views
+					just as much as humans do. Just look at the attentive ears and the
+					beaming look on his face.</p>
+			</div>
+			<div class="col-md-6 portfolio-item">
+				<blockquote class="instagram-media" data-instgrm-version="7"
+					style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15); margin: 1px; max-width: 658px; padding: 0; width: 99.375%; width: -webkit-calc(100% - 2px); width: calc(100% - 2px);">
+					<div style="padding: 8px;">
+						<div
+							style="background: #F8F8F8; line-height: 0; margin-top: 40px; padding: 33.24074074074074% 0; text-align: center; width: 100%;">
+							<div
+								style="background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display: block; height: 44px; margin: 0 auto -44px; position: relative; top: -22px; width: 44px;"></div>
+						</div>
+						<p
+							style="color: #c9c8cd; font-family: Arial, sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;">
+							<a href="https://www.instagram.com/p/BH2V0JzBc6H/"
+								style="color: #c9c8cd; font-family: Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;"
+								target="_blank">A post shared by Haley Schusterman
+								(@adventures_are_calling)</a> on
+							<time
+								style="font-family: Arial, sans-serif; font-size: 14px; line-height: 17px;"
+								datetime="2016-07-14T16:45:37+00:00">Jul 14, 2016 at
+								9:45am PDT</time>
+						</p>
+					</div>
+				</blockquote>
+				<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+				<h3>
+					<a href="#">Man in sun</a>
+				</h3>
+				<p>Sometimes can't help but lace up your tennis shoes, throw on
+					some running shorts, and bask in the French summer air. We all know
+					the feeling.</p>
+			</div>
+		</div>
+
+
+		<!-- Projects Row -->
+		<div class="row">
+			<div class="col-md-6 portfolio-item">
+				<blockquote class="instagram-media" data-instgrm-version="7"
+					style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15); margin: 1px; max-width: 658px; padding: 0; width: 99.375%; width: -webkit-calc(100% - 2px); width: calc(100% - 2px);">
+					<div style="padding: 8px;">
+						<div
+							style="background: #F8F8F8; line-height: 0; margin-top: 40px; padding: 40.46296296296296% 0; text-align: center; width: 100%;">
+							<div
+								style="background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display: block; height: 44px; margin: 0 auto -44px; position: relative; top: -22px; width: 44px;"></div>
+						</div>
+						<p
+							style="color: #c9c8cd; font-family: Arial, sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;">
+							<a href="https://www.instagram.com/p/BHC_D_JBLlY/"
+								style="color: #c9c8cd; font-family: Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;"
+								target="_blank">A post shared by Haley Schusterman
+								(@adventures_are_calling)</a> on
+							<time
+								style="font-family: Arial, sans-serif; font-size: 14px; line-height: 17px;"
+								datetime="2016-06-24T18:05:32+00:00">Jun 24, 2016 at
+								11:05am PDT</time>
+						</p>
+					</div>
+				</blockquote>
+				<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+				<h3>
+					<a href="#">Himalayan culture</a>
+				</h3>
+				<p>The Holi festival, or "festival of colors", signifies the
+					victory of good over evil and the arrival of spring after the
+					winter.</p>
+			</div>
+			<div class="col-md-6 portfolio-item">
+				<blockquote class="instagram-media" data-instgrm-version="7"
+					style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15); margin: 1px; max-width: 658px; padding: 0; width: 99.375%; width: -webkit-calc(100% - 2px); width: calc(100% - 2px);">
+					<div style="padding: 8px;">
+						<div
+							style="background: #F8F8F8; line-height: 0; margin-top: 40px; padding: 33.24074074074074% 0; text-align: center; width: 100%;">
+							<div
+								style="background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display: block; height: 44px; margin: 0 auto -44px; position: relative; top: -22px; width: 44px;"></div>
+						</div>
+						<p
+							style="color: #c9c8cd; font-family: Arial, sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;">
+							<a href="https://www.instagram.com/p/BGkRgqDti3I/"
+								style="color: #c9c8cd; font-family: Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;"
+								target="_blank">A post shared by Haley Schusterman
+								(@adventures_are_calling)</a> on
+							<time
+								style="font-family: Arial, sans-serif; font-size: 14px; line-height: 17px;"
+								datetime="2016-06-12T19:50:17+00:00">Jun 12, 2016 at
+								12:50pm PDT</time>
+						</p>
+					</div>
+				</blockquote>
+				<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+				<h3>
+					<a href="#">Hanging Lakes, you don't look so hanging to me</a>
+				</h3>
+				<p>The pure Colorado water may look safe to drink, but rest
+					assured you may contract giardia if you forget your SteriPEN on
+					this day trip.</p>
+			</div>
+		</div>
+
+		<!-- Projects row -->
+		<div>
+			<div class="col-md-6 portfolio-item">
+				<blockquote class="instagram-media" data-instgrm-version="7"
+					style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15); margin: 1px; max-width: 658px; padding: 0; width: 99.375%; width: -webkit-calc(100% - 2px); width: calc(100% - 2px);">
+					<div style="padding: 8px;">
+						<div
+							style="background: #F8F8F8; line-height: 0; margin-top: 40px; padding: 33.24074074074074% 0; text-align: center; width: 100%;">
+							<div
+								style="background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display: block; height: 44px; margin: 0 auto -44px; position: relative; top: -22px; width: 44px;"></div>
+						</div>
+						<p
+							style="color: #c9c8cd; font-family: Arial, sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;">
+							<a href="https://www.instagram.com/p/BEADVa7ti-9/"
+								style="color: #c9c8cd; font-family: Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;"
+								target="_blank">A post shared by Haley Schusterman
+								(@adventures_are_calling)</a> on
+							<time
+								style="font-family: Arial, sans-serif; font-size: 14px; line-height: 17px;"
+								datetime="2016-04-10T01:10:58+00:00">Apr 9, 2016 at
+								6:10pm PDT</time>
+						</p>
+					</div>
+				</blockquote>
+				<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+				<h3>
+					<a href="#">The view from Peru</a>
+				</h3>
+				<p>Powerful.</p>
+
+			</div>
+			<div class="col-md-6 portfolio-item">
+				<blockquote class="instagram-media" data-instgrm-version="7"
+					style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15); margin: 1px; max-width: 658px; padding: 0; width: 99.375%; width: -webkit-calc(100% - 2px); width: calc(100% - 2px);">
+					<div style="padding: 8px;">
+						<div
+							style="background: #F8F8F8; line-height: 0; margin-top: 40px; padding: 50.0% 0; text-align: center; width: 100%;">
+							<div
+								style="background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display: block; height: 44px; margin: 0 auto -44px; position: relative; top: -22px; width: 44px;"></div>
+						</div>
+						<p
+							style="color: #c9c8cd; font-family: Arial, sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;">
+							<a href="https://www.instagram.com/p/BC81oXDtixR/"
+								style="color: #c9c8cd; font-family: Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;"
+								target="_blank">A post shared by Haley Schusterman
+								(@adventures_are_calling)</a> on
+							<time
+								style="font-family: Arial, sans-serif; font-size: 14px; line-height: 17px;"
+								datetime="2016-03-14T22:42:06+00:00">Mar 14, 2016 at
+								3:42pm PDT</time>
+						</p>
+					</div>
+				</blockquote>
+				<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+				<h3>
+					<a href="#">Luminous spheres of plasma</a>
+				</h3>
+				<p>One of the few things I'd rather do than sleep.</p>
+			</div>
+		</div>
+		<!-- Pagination -->
+		<div class="row text-center">
+			<div class="col-lg-12">
+				<ul class="pagination">
+					<li><a href="#">&laquo;</a></li>
+					<li class="active"><a href="#">1</a></li>
+					<!-- 					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li> -->
+					<li><a href="#">&raquo;</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- /.row -->
+
+	</div>
+	<!-- /.container -->
+
+	<footer>
+		<div id="footer-blurb" data-ibg-bg="images/bg.jpg">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4 footer-blurb-item">
+						<span style="font-size: 5em;" class="glyphicon glyphicon-camera"></span>
+						<h3>Photographer</h3>
+					</div>
+					<div class="col-sm-4 footer-blurb-item">
+						<span style="font-size: 5em;" class="glyphicon glyphicon-globe"></span>
+						<h3>Adventure Traveler</h3>
+					</div>
+					<div class="col-sm-4 footer-blurb-item">
+						<span style="font-size: 5em;"
+							class="glyphicon glyphicon-education"></span>
+						<h3>Student</h3>
+					</div>
+				</div>
+				<!-- /.row -->
+			</div>
+		</div>
+
+		<div class="copyright">
+			<div class="container">
+				<p>
+					<i>Copyright <a href="bday.html">&copy;</a> Haley Schusterman
+						2017
+					</i>
+				</p>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+</html>

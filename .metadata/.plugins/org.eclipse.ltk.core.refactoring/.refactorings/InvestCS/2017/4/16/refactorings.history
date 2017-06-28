@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;VerifyLoginMessage.java&apos; to &apos;fp_team_test/src/data&apos;&#x0A;- Original project: &apos;InvestCS&apos;&#x0A;- Destination element: &apos;fp_team_test/src/data&apos;&#x0A;- Original element: &apos;data.VerifyLoginMessage.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=fp_team_test/src&lt;data" element1="/src&lt;data{VerifyLoginMessage.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1492302182094" units="1" version="1.0"/>
+</session>

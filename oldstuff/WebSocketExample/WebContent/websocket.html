@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WebSocket Example</title>
+    <script>
+	  var socket;
+      function sendMessage() {
+		socket.send("Nick: " + document.myform.message.value);
+		return false;
+      }
+      function connectToServer() {
+    	socket = new WebSocket("ws://localhost:8080/WebSocketExample/ws");
+		socket.onopen = function (event) {
+			document.getElementById("mytext").innerHTML += "Connecting...<br />";
+		}
+		socket.onmessage = function (event) {
+  		    document.getElementById("mytext").innerHTML += event.data + "<br />";
+		}
+		socket.onclose = function(event) {
+			document.getElementById("mytext").innerHTML += "Closing...<br />";
+		}
+      }
+      function closeConnection(){
+    	  socket.close();
+  		socket.onclose = function(event) {
+			document.getElementById("mytext").innerHTML += "Closing...<br />";
+		}
+      }
+    </script>
+  </head>
+  <body onload="connectToServer();">
+    <form name="myform" onsubmit="return sendMessage()">
+      <input type="text" name="message" value="Type Here!" /><br />
+    </form>
+    <button type="button" onclick="sendMessage()">Send Message</button><br />
+    <button type="button" onclick="closeConnection()">Close</button><br />
+    <div id="mytext"></div>
+  </body>
+</html>

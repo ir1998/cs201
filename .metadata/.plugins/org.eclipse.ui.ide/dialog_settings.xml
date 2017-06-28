@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/Users/Nick/Downloads/Lab9_expansion-solution.zip"/>
+		<item value="/Users/Nick/Downloads/Lab10-solution (1).zip"/>
 		<item value="/Users/Nick/Downloads/CSCI201Factory_Lab9"/>
 		<item value="/Users/Nick/Downloads/Lab10-solution.zip"/>
 		<item value="/Users/Nick/Downloads/kaimakis_assignment3.zip"/>
@@ -12,18 +14,33 @@
 		<item value="/Users/Nick/Desktop/hw_kaimakis/Assignment2Solution.zip"/>
 		<item value="/Users/Nick/Desktop/cs201/Assignment1"/>
 	</list>
+	<section name="CleanDialogSettings">
+		<item value="484" key="DIALOG_WIDTH"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="354" key="DIALOG_HEIGHT"/>
+		<item value="398" key="DIALOG_X_ORIGIN"/>
+		<item value="164" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="ExternalProjectImportWizard">
 		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
 		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
-		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="/Users/Nick/Desktop/cs201/kaimakis_assignment3.zip_expanded/Assignment2"/>
 			<item value=""/>
+			<item value="/Users/Nick/Desktop/fp_team_04/fp_team_test"/>
+			<item value="/Users/Nick/Desktop/fp_team_04/201Project"/>
+			<item value="/Users/Nick/Desktop/cs201/kaimakis_assignment3.zip_expanded/Assignment2"/>
 			<item value="/Users/Nick/Desktop/CSCI201Factory_practicemidterm_20171"/>
 			<item value="/Users/Nick/Desktop/CSCI201Factory_Lab2"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="/Users/Nick/Desktop/kaimakis_assignment5.zip"/>
+			<item value="/Users/Nick/Downloads/Lab10-solution (2).zip"/>
+			<item value="/Users/Nick/Downloads/Lab14-solution.zip"/>
 			<item value=""/>
+			<item value="/Users/Nick/Downloads/Lab12-solution.zip"/>
+			<item value="/Users/Nick/Downloads/Assignment3Solution.zip"/>
+			<item value="/Users/Nick/Downloads/Lab9_expansion-solution.zip"/>
 			<item value="/Users/Nick/Downloads/Lab2-solution (2).zip"/>
 			<item value="/Users/Nick/Downloads/Lab2-solution (1).zip"/>
 			<item value="/Users/Nick/Downloads/Lab6_expansion-solution.zip"/>

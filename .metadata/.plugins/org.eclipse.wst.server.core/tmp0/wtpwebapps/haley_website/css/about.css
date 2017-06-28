@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+#about-container{
+	margin: 40px;
+	display: inline; white-space: nowrap;
+}
+#about-container img{
+	padding-right: 30px;
+	float: left;
+	width: 300px;
+}

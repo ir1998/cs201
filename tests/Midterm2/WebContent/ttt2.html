@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Failing this midterm please forgive me</title>
+<link rel="stylesheet" href="ttt.css">
+</head>
+<script>
+	var socket;
+	function sendMessage() {
+		var e = document.getElementById("Move");
+		var place = e.options[e.selectedIndex].text;
+		socket.send(place);
+		return false; 
+	}
+	function connectToServer() {
+		socket = new WebSocket("ws://localhost:8080/Midterm2/ws");
+		socket.onopen = function(event) {
+			document.getElementById("warning").innerHTML = "Please choose a move";
+		}
+		socket.onmessage = function(event) {
+			var message = event.data;
+			var e = document.getElementById("Move");
+			var place = e.options[e.selectedIndex].text;
+			if (message.trim().length < 1) {
+				if (document.getElementById("who").innerHTML == "Player X") {
+					document.getElementById("who").innerHTML = "Player Y";
+					document.getElementById(place.trim()).innerHTML = "X";
+					document.getElementById("warning").innerHTML = "X placed at "+ place;
+				} else {
+					document.getElementById("who").innerHTML = "Player X";
+					document.getElementById(place).innerHTML = "O";
+					document.getElementById("warning").innerHTML = "O placed at "
+							+ place;
+				}
+				return false;
+			} else {
+				if (document.getElementById("who").innerHTML == "Player X") {
+					document.getElementById("warning").innerHTML = "ERROR: X cannot be placed at "
+							+ place;
+				} else {
+					document.getElementById("warning").innerHTML = "ERROR: O cannot be placed at "
+							+ place;
+				}
+				return false;
+			}
+		}
+		socket.onclose = function(event) {
+			//document.getElementById("mytext").innerHTML += "on close";
+		}
+	}
+	function closeConnection() {
+		socket.close();
+		socket.onclose = function(event) {
+			//document.getElementById("mytext").innerHTML += "Closing...<br />";
+		}
+	}
+</script>
+<body onload="connectToServer();">
+	<div id="warning"></div>
+	<table style="width: 40%">
+		<tr>
+			<td class="square" id="a1"></td>
+			<td class="square v" id="a2"></td>
+			<td class="square" id="a3"></td>
+		</tr>
+		<tr>
+			<td class="square h" id="b1"></td>
+			<td class="square v h" id="b2"></td>
+			<td class="square h" id="b3"></td>
+		</tr>
+		<tr>
+			<td class="square" id="c1"></td>
+			<td class="square v" id="c2"></td>
+			<td class="square" id="c3"></td>
+		</tr>
+	</table>
+	<br />
+	<select id="Move">
+		<option value="da1">a1</option>
+		<option value="da2">a2</option>
+		<option value="da3">a3</option>
+		<option value="db1">b1</option>
+		<option value="db2">b2</option>
+		<option value="db3">b3</option>
+		<option value="dc1">c1</option>
+		<option value="dc2">c2</option>
+		<option value="dc3">c3</option>
+	</select>
+	<br />
+	<div id="who">Player X</div>
+	<button type="button" onclick="sendMessage();">Submit Move</button>
+	<br />
+
+</body>
+</html>
+
+<!-- 
+function validate() {
+		var e = document.getElementById("Move");
+		var place = e.options[e.selectedIndex].text;
+		var xhttp = new XMLHttpRequest();
+		xhttp
+				.open("GET",
+						"${pageContext.request.contextPath}/MoveServlet?place="
+								+ place, false);
+		xhttp.send();
+		if (xhttp.responseText.trim().length > 0) {
+			if (document.getElementById("who").innerHTML == "Player X") {
+				document.getElementById("warning").innerHTML = "ERROR: X cannot be placed at "
+						+ place;
+			} else {
+				document.getElementById("warning").innerHTML = "ERROR: O cannot be placed at "
+						+ place;
+			}
+			return false;
+		}
+		if (document.getElementById("who").innerHTML == "Player X") {
+			document.getElementById("who").innerHTML = "Player Y";
+			document.getElementById(place).innerHTML = "X";
+			document.getElementById("warning").innerHTML = "X placed at "
+					+ place;
+		} else {
+			document.getElementById("who").innerHTML = "Player X";
+			document.getElementById(place).innerHTML = "O";
+			document.getElementById("warning").innerHTML = "O placed at "
+					+ place;
+		}
+		return true;
+	};
+ -->

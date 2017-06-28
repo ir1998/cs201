@@ -1,0 +1,328 @@
+package data;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.Map;
+
+import com.google.gson.Gson;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.reflect.TypeToken;
+
+public class TMDBapi {
+	public static String apiKey = "6fcdd94b2c3de6dca333cce3a2789227";
+
+	public TMDBapi() {
+		// default constructor
+	}
+
+	// takes imdb id and returns list of genres
+	public static String getGenresById(String id) {
+		return getInfoById(id, "Genre");
+		// how to get a genre from a JsonArray
+		// JsonArray ja = new Gson().fromJson(genres, JsonArray.class);
+		// for(JsonElement je: ja){
+		// String result = je.toString();
+		// JsonObject j2 = new Gson().fromJson(je, JsonObject.class);
+		// genreList.add(j2.get("name").toString());
+		// }
+		// return genreList;
+	}
+
+	public static String getRatingById(String id) {
+		return getInfoById(id, "imdbRating");
+	}
+
+	public static String getActorsById(String id) {
+		return getInfoById(id, "Actors");
+	}
+
+	public static String getYearById(String id) {
+		return getInfoById(id, "Year");
+	}
+
+	public static String getTitleById(String id) {
+		return getInfoById(id, "Title");
+	}
+
+	public static String getIMDBratingById(String id) {
+		return getInfoById(id, "imdbRating");
+	}
+
+	public static String getDirectorById(String id) {
+		return getInfoById(id, "Director");
+	}
+
+	public static String getWriterById(String id) {
+		return getInfoById(id, "Writer");
+	}
+
+	public static String getPlotById(String id) {
+		return getInfoById(id, "Plot");
+	}
+
+	public static String getImageById(String id) {
+		return getInfoById(id, "Poster");
+	}
+
+	public static String getInfoById(String id, String tag) {
+		URL url;
+		try {
+			url = new URL("http://www.omdbapi.com/?i=" + id);
+			Map<String, Object> map = getMapFromURL(url);
+
+			return (String) map.get(tag);
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
+	
+	public static String getIMDBid(String title) {
+		URL url;
+		//System.out.println("before remove " + title);
+		//title = removeSpaces(title);
+		//System.out.println("after remove " + title);
+
+		try {
+			url = new URL("http://www.omdbapi.com/?t=" + title);
+			Map<String, Object> map = getMapFromURL(url);
+
+			return (String) map.get("imdbID");
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+	public static String getActorImage(String name){
+		URL url;
+		String actor = removeSpaces(name);
+
+		Map<String, Object> m = null;
+		ArrayList<Object> al;
+		Map<String, Object> results = null;
+		try {
+			url = new URL(
+					"http://api.themoviedb.org/3/search/person?language=en&api_key=6fcdd94b2c3de6dca333cce3a2789227&query="+actor);
+			m = getMapFromURL(url);
+			
+			al = (ArrayList<Object>)(m.get("results"));
+			results = (Map<String,Object>) al.get(0);
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		String imageURL = "https://image.tmdb.org/t/p/original" + (String)results.get("profile_path");
+		return imageURL;
+	}
+
+	public static Map<String, Object> getMapFromURL(URL url) {
+		try {
+			HttpURLConnection con = (HttpURLConnection) url.openConnection();
+			con.setDoOutput(true);
+			con.setRequestMethod("GET");
+			con.setRequestProperty("Content-Type", "application/json");
+
+			BufferedReader br = new BufferedReader(new InputStreamReader((con.getInputStream())));
+
+			String json = br.readLine();
+
+			Gson gson = new Gson();
+			Map<String, Object> map = gson.fromJson(json, new TypeToken<Map<String, Object>>() {
+			}.getType());
+			//map.forEach((x, y) -> System.out.println("key : " + x + " , value : " + y));
+
+			return map;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
+	
+	public static ArrayList<Map<String, Object>> getMapsFromURL(URL url) {
+		try {
+			HttpURLConnection con = (HttpURLConnection) url.openConnection();
+			con.setDoOutput(true);
+			con.setRequestMethod("GET");
+			con.setRequestProperty("Content-Type", "application/json");
+
+			BufferedReader br = new BufferedReader(new InputStreamReader((con.getInputStream())));
+
+//			String json = br.readLine();
+//
+//			Gson gson = new Gson();
+//			Map<String, Object> map = gson.fromJson(json, new TypeToken<Map<String, Object>>() {
+//			}.getType());
+//			System.out.println((String) map.get("imdbID"));
+			
+			ArrayList<Map<String, Object>> movies = new ArrayList<Map<String, Object>>();
+			while(true){
+				String json = br.readLine();
+				if(json == null)
+					break;
+				Gson gson = new Gson();
+				Map<String,Object> map = gson.fromJson(json, new TypeToken<Map<String, Object>>() {
+				}.getType());
+				movies.add(map);
+			}
+			return movies;
+			//map.forEach((x, y) -> System.out.println("key : " + x + " , value : " + y));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+	public static List<String> searchMovieByTitle(String title){
+		// replace spaces with + for url
+		List<String> movies = new ArrayList<String>();
+		title = removeSpaces(title);
+		//System.out.println(movieTitle);
+		URL url;
+		try {
+			url = new URL("http://www.omdbapi.com/?t=" + title);
+			ArrayList<Map<String, Object>> maps = getMapsFromURL(url);
+			for(Map map: maps){
+				movies.add((String) map.get("imdbID"));
+			}
+//			Map<String, Object> map = getMapFromURL(url);
+//
+//			// gets tmdb value from the top result arraylist
+//			ArrayList<Object> s = (ArrayList<Object>) map.get("results");
+//
+//			if (s.isEmpty()) {
+//				return null;
+//			} else {
+//				for(Object m: s){
+//					Map result = (Map) m;
+//					int tmdb = ((Double) result.get("id")).intValue();
+//
+//					// send new request for movie info by tmdb id
+//					url = new URL("http://api.themoviedb.org/3/movie/" + tmdb
+//							+ "?language=en&api_key=6fcdd94b2c3de6dca333cce3a2789227");
+//					map = getMapFromURL(url);
+//					String imdbId = (String) map.get("imdb_id");
+//					if(!imdbId.equals("")){
+//						movies.add(imdbId);
+//					}
+//
+//				}
+			return movies;
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		// movie not found, no results
+		return null;
+	}
+	
+	public static List<String> searchMovieByActor(String actor){
+		// replace spaces with + for url
+		List<String> movies = new ArrayList<String>();
+		actor = removeSpaces(actor);
+		//System.out.println(movieTitle);
+		URL url;
+		try {
+			url = new URL("http://api.tmdb.org/3/search/person?query=" + actor
+					+ "&language=en&api_key=6fcdd94b2c3de6dca333cce3a2789227");
+			Map<String, Object> map = getMapFromURL(url);
+
+			ArrayList<Object> s = (ArrayList<Object>) map.get("results");
+
+			if(s.get(0) == null){
+				return movies;
+			}
+			
+			Map result = (Map) s.get(0);
+			
+			ArrayList<Object> known = (ArrayList<Object>) result.get("known_for");
+
+			for(Object o: known){
+				Map<String, Object> resultMap = (Map<String,Object>)o;
+				movies.add((String)resultMap.get("title"));
+			}
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		// movie not found, no results
+		return null;
+	}
+	
+
+	
+//	public static String getIMDBid(String movieTitle) {
+//		// replace spaces with + for url
+//		System.out.println("title in getIMDBid is:"+movieTitle);
+//		movieTitle = removeSpaces(movieTitle);
+//		//System.out.println(movieTitle);
+//		URL url;
+//		try {
+//			url = new URL("http://api.themoviedb.org/3/search/movie?query=" + movieTitle
+//					+ "&language=en&api_key=6fcdd94b2c3de6dca333cce3a2789227");
+//			Map<String, Object> map = getMapFromURL(url);
+//
+//			// gets tmdb value from the top result arraylist
+//			ArrayList<Object> s = (ArrayList<Object>) map.get("results");
+//			if (s.isEmpty()) {
+//				return null;
+//			} else {
+//				Map m = (Map) s.get(0);
+//				int tmdb = ((Double) m.get("id")).intValue();
+//
+//				// send new request for movie info by tmdb id
+//				url = new URL("http://api.themoviedb.org/3/movie/" + tmdb
+//						+ "?language=en&api_key=6fcdd94b2c3de6dca333cce3a2789227");
+//				map = getMapFromURL(url);
+//				return (String) map.get("imdb_id");
+//			}
+//		} catch (MalformedURLException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//
+//		// movie not found, no results
+//		return null;
+//	}
+
+	public static String removeSpaces(String s) {
+		s = s.replaceAll("\\s+", "+");
+		return s;
+	}
+
+	public static void main(String[] args) {
+		TMDBapi t = new TMDBapi();
+		System.out.println(t.searchMovieByTitle("twilight"));
+	}
+
+}
